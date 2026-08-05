@@ -1,0 +1,9 @@
+nohup: 忽略输入
+[2026-08-02 21:04:05] 07. SplashRNA: NM_000371.4
+[2026-08-02 21:04:05]     Guide length: 22 nt (native shRNA window length)
+[2026-08-02 21:04:05]     Transcript length: 616 nt
+[2026-08-02 21:04:05]     Generated 595 candidate 22-nt sequences.
+[2026-08-02 21:04:05]     Loading LibSVM models from /data/cai801/data/HKUcas/software/SplashRNA...
+[2026-08-02 21:04:22]     Predicting SplashRNA cascade scores...
+[2026-08-02 21:04:22]     595 predictions merged and evaluated -> SplashRNA_22_NM_000371.4.csv
+[2026-08-02 21:04:22] 07. Done.

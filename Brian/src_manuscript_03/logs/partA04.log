@@ -1,0 +1,11 @@
+nohup: 忽略输入
+['2026-07-26 20:44:07'] 04. DeepCas13: NM_000371.4
+['2026-07-26 20:44:07']     Testing guide lengths: [18, 23, 30]
+['2026-07-26 20:44:07']     Note: All guides padded to 33 nt internally before CNN input.
+['2026-07-26 20:44:07']     Running --length 18 ...
+['2026-07-26 20:44:34']     SUCCESS with guide length 18 -> DeepCas13_18_NM_000371.4.csv
+['2026-07-26 20:44:34']     Running --length 23 ...
+['2026-07-26 20:45:01']     SUCCESS with guide length 23 -> DeepCas13_23_NM_000371.4.csv
+['2026-07-26 20:45:01']     Running --length 30 ...
+['2026-07-26 20:45:28']     SUCCESS with guide length 30 -> DeepCas13_30_NM_000371.4.csv
+['2026-07-26 20:45:28'] 04. Done.

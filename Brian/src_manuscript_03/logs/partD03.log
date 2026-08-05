@@ -1,0 +1,35 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggpubr’是用R版本4.3.3 来建造的 
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+[2026-07-28 17:34:16.554264] Step 1: Running Spatial Permutation for TTR Models...
+ TRUE[2026-07-28 17:34:16.562073]   -> Permuting TTR_CasRx_day5_RNAxs_based_W80_L40_U9
+ TRUE[2026-07-28 17:34:16.811357]   -> Permuting TTR_CasRx_day5_TTR_based_W35_L20_U11
+ TRUE[2026-07-28 17:34:16.984563]   -> Permuting TTR_PspCas13b_RNAxs_based_W80_L40_U17
+ TRUE[2026-07-28 17:34:17.158924]   -> Permuting TTR_PspCas13b_TTR_based_W35_L20_U11
+ TRUE[2026-07-28 17:34:17.328112]   -> Permuting TTR_shRNAone_RNAxs_based_W80_L40_U7
+ TRUE[2026-07-28 17:34:17.518305]   -> Permuting TTR_shRNAone_TTR_based_W35_L20_U7
+ TRUE[2026-07-28 17:34:17.712227] Step 2: Running Spatial Permutation for PCSK9 Models...
+ TRUE[2026-07-28 17:34:17.719391]   -> Permuting PCSK9_shRNAone_RNAxs_based_W80_L40_U7
+ TRUE[2026-07-28 17:34:18.052174]   -> Permuting PCSK9_shRNAone_TTR_based_W35_L20_U7
+ TRUE[2026-07-28 17:34:18.37573] Step 3: Saving results and generating PDFs...
+ TRUE[2026-07-28 17:34:19.588691] Module partD.03 Spatial Permutation finished perfectly.
+ TRUE

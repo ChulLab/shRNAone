@@ -1,0 +1,13 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+[2026-07-26 21:46:29.672619] 20. Comparing Dry-models performance across Whole, CDS, and 3'UTR
+ TRUE[2026-07-26 21:46:29.85168]   Saved performance stats: 05.self_other_compare.csv
+ TRUEWarning message:
+Removed 2 rows containing missing values or values outside the scale range
+(`geom_text()`). 
+null device 
+          1 
+[2026-07-26 21:46:30.385391]   Saved multi-region bar plot: 05.self_other_compare.pdf
+ TRUE[2026-07-26 21:46:30.385556] 20. Done.
+ TRUE

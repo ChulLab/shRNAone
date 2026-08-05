@@ -1,0 +1,22 @@
+nohup: 忽略输入
+[2026-07-26 20:40:42] 02. TIGER 2023: NM_000371.4 (23 nt guide)
+[2026-07-26 20:40:42]     Note: TIGER CNN input is fixed at 208 dims (=23nt guide). Only 23nt is supported.
+[2026-07-26 20:40:42]     Copied NM_000371.4.fasta to temp directory
+2026-07-26 20:40:43.023135: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-07-26 20:40:43.152329: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-07-26 20:40:43.156323: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2026-07-26 20:40:43.156347: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2026-07-26 20:40:43.739073: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-07-26 20:40:43.739151: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-07-26 20:40:43.739163: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2026-07-26 20:40:44.380462: E tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-07-26 20:40:44.380495: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (inspur-NF5280M5): /proc/driver/nvidia/version does not exist
+2026-07-26 20:40:44.399963: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:No training configuration found in save file, so the model was *not* compiled. Compile it manually.
+Batch 1 of 1
+Evaluating on-target guides for each transcript: 100.00%
+[2026-07-26 20:40:45]     Saved: TIGER2023_23_NM_000371.4.csv
+[2026-07-26 20:40:45]     Cleaned up temp directory
+[2026-07-26 20:40:45] 02. TIGER 2023: Done.

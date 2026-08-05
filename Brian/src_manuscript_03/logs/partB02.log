@@ -1,0 +1,502 @@
+nohup: 忽略输入
+[2026-07-27 00:35:05] === 02.grid_search (Ultra-Fast Parallel Version) ===
+[2026-07-27 00:35:05]   Loaded shRNAone: 588 targets
+[2026-07-27 00:35:05]   Loaded PspCas13b: 587 targets
+[2026-07-27 00:35:05]   Loaded CasRx_day5: 591 targets
+[2026-07-27 00:35:05] Total lunp files to search: 10001 across 3 tools
+[2026-07-27 00:35:05] Utilizing 40 CPU cores for parallel grid search...
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:144: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  sr, sp = spearmanr(sub_acc, sub_y)
+/data/cai801/data/HKUcas/src/src_manuscript_03/partB.02.grid_search.py:145: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pr, pp = pearsonr(sub_acc, sub_y)
+[2026-07-27 00:35:35]   Progress: [1000/10001] (10.0%)
+[2026-07-27 00:35:50]   Progress: [2000/10001] (20.0%)
+[2026-07-27 00:36:10]   Progress: [3000/10001] (30.0%)
+[2026-07-27 00:36:32]   Progress: [4000/10001] (40.0%)
+[2026-07-27 00:36:48]   Progress: [5000/10001] (50.0%)
+[2026-07-27 00:37:07]   Progress: [6000/10001] (60.0%)
+[2026-07-27 00:37:29]   Progress: [7000/10001] (70.0%)
+[2026-07-27 00:37:47]   Progress: [8000/10001] (80.0%)
+[2026-07-27 00:38:05]   Progress: [9000/10001] (90.0%)
+[2026-07-27 00:38:25]   Progress: [10000/10001] (100.0%)
+[2026-07-27 00:38:25]   Progress: [10001/10001] (100.0%)
+[2026-07-27 00:38:56] Saved: /data/cai801/data/HKUcas/result/08.manuscript_03/partB/02.grid_results/shRNAone_grid.csv (2040204 rows)
+[2026-07-27 00:38:57]   [shRNAone] 3prime     whole  : W=27 L=9 U=11 | Spearman r=0.3161 (p=4.16e-15) | Pearson r=0.3637
+[2026-07-27 00:38:57]   [shRNAone] 3prime     CDS    : W=23 L=10 U=7 | Spearman r=0.2258 (p=2.02e-06) | Pearson r=0.2484
+[2026-07-27 00:38:57]   [shRNAone] 3prime     3'UTR  : W=20 L=11 U=4 | Spearman r=0.5211 (p=1.83e-11) | Pearson r=0.5021
+[2026-07-27 00:38:57]   [shRNAone] 5prime     whole  : W=25 L=9 U=18 | Spearman r=0.2763 (p=9.15e-12) | Pearson r=0.3307
+[2026-07-27 00:38:57]   [shRNAone] 5prime     CDS    : W=20 L=5 U=18 | Spearman r=0.1886 (p=7.69e-05) | Pearson r=0.1874
+[2026-07-27 00:38:58]   [shRNAone] 5prime     3'UTR  : W=42 L=11 U=18 | Spearman r=0.3257 (p=6.38e-05) | Pearson r=0.3216
+[2026-07-27 00:38:58]   [shRNAone] upstream   whole  : W=20 L=5 U=16 | Spearman r=0.1600 (p=1.22e-04) | Pearson r=0.1639
+[2026-07-27 00:38:58]   [shRNAone] upstream   CDS    : W=24 L=6 U=18 | Spearman r=0.1377 (p=4.47e-03) | Pearson r=0.0345
+[2026-07-27 00:38:58]   [shRNAone] upstream   3'UTR  : W=23 L=6 U=18 | Spearman r=0.2016 (p=1.50e-02) | Pearson r=0.2186
+[2026-07-27 00:38:59]   [shRNAone] downstream whole  : W=24 L=10 U=4 | Spearman r=0.2637 (p=9.63e-11) | Pearson r=0.2542
+[2026-07-27 00:38:59]   [shRNAone] downstream CDS    : W=28 L=21 U=5 | Spearman r=0.1767 (p=2.16e-04) | Pearson r=0.1183
+[2026-07-27 00:38:59]   [shRNAone] downstream 3'UTR  : W=49 L=31 U=18 | Spearman r=0.6886 (p=3.64e-19) | Pearson r=0.6358
+[2026-07-27 00:39:50] Saved: /data/cai801/data/HKUcas/result/08.manuscript_03/partB/02.grid_results/PspCas13b_grid.csv (3478848 rows)
+[2026-07-27 00:39:50]   [PspCas13b] 3prime     whole  : W=28 L=7 U=22 | Spearman r=0.4121 (p=1.81e-25) | Pearson r=0.3775
+[2026-07-27 00:39:51]   [PspCas13b] 3prime     CDS    : W=54 L=37 U=11 | Spearman r=0.3584 (p=8.17e-15) | Pearson r=0.0937
+[2026-07-27 00:39:51]   [PspCas13b] 3prime     3'UTR  : W=20 L=14 U=7 | Spearman r=0.5637 (p=1.28e-13) | Pearson r=0.5933
+[2026-07-27 00:39:52]   [PspCas13b] 5prime     whole  : W=35 L=9 U=30 | Spearman r=0.3537 (p=9.60e-19) | Pearson r=0.3719
+[2026-07-27 00:39:52]   [PspCas13b] 5prime     CDS    : W=32 L=8 U=30 | Spearman r=0.2472 (p=1.45e-07) | Pearson r=0.2030
+[2026-07-27 00:39:52]   [PspCas13b] 5prime     3'UTR  : W=42 L=17 U=30 | Spearman r=0.3593 (p=8.42e-06) | Pearson r=0.2627
+[2026-07-27 00:39:53]   [PspCas13b] upstream   whole  : W=28 L=7 U=13 | Spearman r=0.2045 (p=7.75e-07) | Pearson r=0.1316
+[2026-07-27 00:39:53]   [PspCas13b] upstream   CDS    : W=24 L=17 U=8 | Spearman r=0.2488 (p=1.57e-07) | Pearson r=0.2626
+[2026-07-27 00:39:53]   [PspCas13b] upstream   3'UTR  : W=20 L=6 U=6 | Spearman r=0.3292 (p=4.96e-05) | Pearson r=0.4383
+[2026-07-27 00:39:54]   [PspCas13b] downstream whole  : W=32 L=8 U=24 | Spearman r=0.4550 (p=4.00e-30) | Pearson r=0.4199
+[2026-07-27 00:39:54]   [PspCas13b] downstream CDS    : W=32 L=8 U=24 | Spearman r=0.2193 (p=3.33e-06) | Pearson r=0.2257
+[2026-07-27 00:39:54]   [PspCas13b] downstream 3'UTR  : W=40 L=25 U=30 | Spearman r=0.7373 (p=3.84e-21) | Pearson r=0.3890
+[2026-07-27 00:40:38] Saved: /data/cai801/data/HKUcas/result/08.manuscript_03/partB/02.grid_results/CasRx_day5_grid.csv (2639880 rows)
+[2026-07-27 00:40:38]   [CasRx_day5] 3prime     whole  : W=24 L=7 U=15 | Spearman r=0.3063 (p=2.64e-14) | Pearson r=0.2764
+[2026-07-27 00:40:39]   [CasRx_day5] 3prime     CDS    : W=20 L=6 U=7 | Spearman r=0.2678 (p=1.11e-08) | Pearson r=0.2275
+[2026-07-27 00:40:39]   [CasRx_day5] 3prime     3'UTR  : W=25 L=8 U=9 | Spearman r=0.5690 (p=6.72e-14) | Pearson r=0.3913
+[2026-07-27 00:40:39]   [CasRx_day5] 5prime     whole  : W=28 L=7 U=23 | Spearman r=0.2659 (p=5.07e-11) | Pearson r=0.2555
+[2026-07-27 00:40:39]   [CasRx_day5] 5prime     CDS    : W=24 L=6 U=23 | Spearman r=0.2334 (p=7.18e-07) | Pearson r=0.2121
+[2026-07-27 00:40:40]   [CasRx_day5] 5prime     3'UTR  : W=44 L=11 U=22 | Spearman r=0.4093 (p=2.90e-07) | Pearson r=0.3505
+[2026-07-27 00:40:40]   [CasRx_day5] upstream   whole  : W=200 L=89 U=3 | Spearman r=0.1094 (p=7.94e-03) | Pearson r=0.0931
+[2026-07-27 00:40:40]   [CasRx_day5] upstream   CDS    : W=200 L=89 U=3 | Spearman r=0.1211 (p=1.09e-02) | Pearson r=0.0901
+[2026-07-27 00:40:40]   [CasRx_day5] upstream   3'UTR  : W=20 L=6 U=20 | Spearman r=0.3506 (p=1.43e-05) | Pearson r=0.3431
+[2026-07-27 00:40:41]   [CasRx_day5] downstream whole  : W=39 L=10 U=23 | Spearman r=0.2013 (p=1.32e-06) | Pearson r=0.2659
+[2026-07-27 00:40:41]   [CasRx_day5] downstream CDS    : W=24 L=6 U=11 | Spearman r=0.1525 (p=1.32e-03) | Pearson r=0.1072
+[2026-07-27 00:40:41]   [CasRx_day5] downstream 3'UTR  : W=80 L=41 U=22 | Spearman r=0.6158 (p=2.71e-14) | Pearson r=0.6448
+[2026-07-27 00:40:41] === Done in 336.2s ===

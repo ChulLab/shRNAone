@@ -1,0 +1,36 @@
+nohup: 忽略输入
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggpubr’是用R版本4.3.3 来建造的 
+[2026-07-27 21:36:04.947495] Step 1: Loading all grid results and computing significance...
+ TRUE[2026-07-27 21:36:07.45234] Step 3: Processing candidate lists and generating merged PDFs...
+ TRUE[2026-07-27 21:36:07.478013] --> Processing W30_L20 vs W80_L40 ...
+ TRUE[2026-07-27 21:36:09.848499]     Saved merged PDF: /data/cai801/data/HKUcas/result/08.manuscript_03/partD/01.plateau_compare/W30L20_vs_W80L40.pdf
+ TRUE[2026-07-27 21:36:09.84866] --> Processing W35_L20 vs W80_L40 ...
+ TRUE[2026-07-27 21:36:11.620637]     Saved merged PDF: /data/cai801/data/HKUcas/result/08.manuscript_03/partD/01.plateau_compare/W35L20_vs_W80L40.pdf
+ TRUE[2026-07-27 21:36:11.620812] --> Processing W40_L20 vs W80_L40 ...
+ TRUE[2026-07-27 21:36:13.348573]     Saved merged PDF: /data/cai801/data/HKUcas/result/08.manuscript_03/partD/01.plateau_compare/W40L20_vs_W80L40.pdf
+ TRUE[2026-07-27 21:36:13.348748] --> Processing W45_L20 vs W80_L40 ...
+ TRUE[2026-07-27 21:36:15.118984]     Saved merged PDF: /data/cai801/data/HKUcas/result/08.manuscript_03/partD/01.plateau_compare/W45L20_vs_W80L40.pdf
+ TRUE[2026-07-27 21:36:15.119156] --> Processing W50_L20 vs W80_L40 ...
+ TRUE[2026-07-27 21:36:16.90435]     Saved merged PDF: /data/cai801/data/HKUcas/result/08.manuscript_03/partD/01.plateau_compare/W50L20_vs_W80L40.pdf
+ TRUE[2026-07-27 21:36:16.904572] Module partD.01 Batch Output completed successfully.
+ TRUE

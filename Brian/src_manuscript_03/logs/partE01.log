@@ -1,0 +1,49 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+
+载入程辑包：‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Warning message:
+程辑包‘zoo’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggpubr’是用R版本4.3.3 来建造的 
+[2026-07-28 21:18:51.657053] Step 1: Loading raw wet-lab data...
+ TRUE[2026-07-28 21:18:51.679272] Step 2: Activating parallel permutation engine with 70 CPU cores...
+ TRUE[2026-07-28 21:18:51.712818] Processing Window 9 nt...
+ TRUE[2026-07-28 21:18:51.749132]   [TTR] Resolution: 1 nt | Window: 9 nt -> Averaging 9 targets
+ TRUE[2026-07-28 21:18:52.497324]   [PCSK9] Resolution: 3 nt | Window: 9 nt -> Averaging 3 targets
+ TRUE[2026-07-28 21:18:53.867423] Processing Window 12 nt...
+ TRUE[2026-07-28 21:18:53.868781]   [TTR] Resolution: 1 nt | Window: 12 nt -> Averaging 12 targets
+ TRUE[2026-07-28 21:18:54.773046]   [PCSK9] Resolution: 3 nt | Window: 12 nt -> Averaging 4 targets
+ TRUE[2026-07-28 21:18:56.089559] Processing Window 15 nt...
+ TRUE[2026-07-28 21:18:56.090797]   [TTR] Resolution: 1 nt | Window: 15 nt -> Averaging 15 targets
+ TRUE[2026-07-28 21:18:57.05517]   [PCSK9] Resolution: 3 nt | Window: 15 nt -> Averaging 5 targets
+ TRUE[2026-07-28 21:18:58.382077] Processing Window 18 nt...
+ TRUE[2026-07-28 21:18:58.383421]   [TTR] Resolution: 1 nt | Window: 18 nt -> Averaging 18 targets
+ TRUE[2026-07-28 21:18:59.397952]   [PCSK9] Resolution: 3 nt | Window: 18 nt -> Averaging 6 targets
+ TRUE[2026-07-28 21:19:00.677068] Processing Window 21 nt...
+ TRUE[2026-07-28 21:19:00.67842]   [TTR] Resolution: 1 nt | Window: 21 nt -> Averaging 21 targets
+ TRUE[2026-07-28 21:19:01.676589]   [PCSK9] Resolution: 3 nt | Window: 21 nt -> Averaging 7 targets
+ TRUE[2026-07-28 21:19:03.031919] Processing Window 24 nt...
+ TRUE[2026-07-28 21:19:03.033248]   [TTR] Resolution: 1 nt | Window: 24 nt -> Averaging 24 targets
+ TRUE[2026-07-28 21:19:03.930278]   [PCSK9] Resolution: 3 nt | Window: 24 nt -> Averaging 8 targets
+ TRUE[2026-07-28 21:19:05.405082] Processing Window 27 nt...
+ TRUE[2026-07-28 21:19:05.406425]   [TTR] Resolution: 1 nt | Window: 27 nt -> Averaging 27 targets
+ TRUE[2026-07-28 21:19:06.350751]   [PCSK9] Resolution: 3 nt | Window: 27 nt -> Averaging 9 targets
+ TRUE[2026-07-28 21:19:07.825852] Processing Window 30 nt...
+ TRUE[2026-07-28 21:19:07.827138]   [TTR] Resolution: 1 nt | Window: 30 nt -> Averaging 30 targets
+ TRUE[2026-07-28 21:19:08.860276]   [PCSK9] Resolution: 3 nt | Window: 30 nt -> Averaging 10 targets
+ TRUE[2026-07-28 21:19:10.273726] Processing Window 33 nt...
+ TRUE[2026-07-28 21:19:10.275029]   [TTR] Resolution: 1 nt | Window: 33 nt -> Averaging 33 targets
+ TRUE[2026-07-28 21:19:11.272848]   [PCSK9] Resolution: 3 nt | Window: 33 nt -> Averaging 11 targets
+ TRUE[2026-07-28 21:19:13.017487] Processing Window 36 nt...
+ TRUE[2026-07-28 21:19:13.018805]   [TTR] Resolution: 1 nt | Window: 36 nt -> Averaging 36 targets
+ TRUE[2026-07-28 21:19:13.939237]   [PCSK9] Resolution: 3 nt | Window: 36 nt -> Averaging 12 targets
+ TRUE[2026-07-28 21:19:15.407352] Step 4: Stitching plots together...
+ TRUE[2026-07-28 21:19:18.936496] Part E.01 All Done.
+ TRUE

@@ -1,0 +1,42 @@
+nohup: 忽略输入
+[2026-07-26 20:38:34] 01. Sanjana 2020: Starting prediction on NM_000371.4
+[2026-07-26 20:38:34]     Timestamp: 20260726_203834
+[2026-07-26 20:38:34]     ==============================================
+[2026-07-26 20:38:34]     Processing guide length: 23 nt
+[2026-07-26 20:38:34]     [OK] R script already clean (default 23)
+[2026-07-26 20:38:34]     No modification needed (target length equals default 23)
+Getting guides for: NM_000371.4
+Get raw CasRx guides sequences started on Sun Jul 26 20:38:36 2026
+Calculating crRNA MFE started on Sun Jul 26 20:38:37 2026
+Calculating target site accessibility started on Sun Jul 26 20:38:40 2026
+Calculating guide::target hybridization energies started on Sun Jul 26 20:38:40 2026
+Get nucleotide density of target sequences started on Sun Jul 26 20:38:59 2026
+Get nucleotide proportions in guide RNA started on Sun Jul 26 20:39:03 2026
+Loading precomputed model started on Sun Jul 26 20:39:03 2026
+Guide scoring started on Sun Jul 26 20:39:04 2026
+done Sun Jul 26 20:39:04 2026
+null device 
+          1 
+[2026-07-26 20:39:05]     Saved: Sanjana2020_23_NM_000371.4.csv
+[2026-07-26 20:39:05]     Force-restored R script to default (23) after completion
+[2026-07-26 20:39:05]     Completed guide length 23 nt successfully
+[2026-07-26 20:39:05]     ==============================================
+[2026-07-26 20:39:05]     Processing guide length: 30 nt
+[2026-07-26 20:39:05]     [OK] R script already clean (default 23)
+[2026-07-26 20:39:05]     Modified lines 79, 499, 524, 592 in RfxCas13d_GuideScoring.R (23 -> 30)
+Getting guides for: NM_000371.4
+Get raw CasRx guides sequences started on Sun Jul 26 20:39:08 2026
+Calculating crRNA MFE started on Sun Jul 26 20:39:09 2026
+Calculating target site accessibility started on Sun Jul 26 20:39:12 2026
+Calculating guide::target hybridization energies started on Sun Jul 26 20:39:12 2026
+Get nucleotide density of target sequences started on Sun Jul 26 20:39:31 2026
+Get nucleotide proportions in guide RNA started on Sun Jul 26 20:39:35 2026
+Loading precomputed model started on Sun Jul 26 20:39:35 2026
+Guide scoring started on Sun Jul 26 20:39:36 2026
+done Sun Jul 26 20:39:36 2026
+null device 
+          1 
+[2026-07-26 20:39:37]     Saved: Sanjana2020_30_NM_000371.4.csv
+[2026-07-26 20:39:37]     Force-restored R script to default (23) after completion
+[2026-07-26 20:39:37]     Completed guide length 30 nt successfully
+[2026-07-26 20:39:37] 01. Sanjana 2020: All lengths processed. R script confirmed at default (23). Done.

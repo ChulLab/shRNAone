@@ -1,0 +1,11 @@
+nohup: 忽略输入
+[2026-07-26 20:33:36] === 01.3 Clean Final Wet Data ===
+[2026-07-26 20:33:36]   TTR_PspCas13b: 587 rows → /data/cai801/data/HKUcas/result/08.manuscript_03/partA/01.clean_wet/TTR_PspCas13b_clean.csv
+[2026-07-26 20:33:36]     Regions: {'CDS': 441, "3'UTR": 146}
+[2026-07-26 20:33:36]   TTR_shRNAone: 588 rows → /data/cai801/data/HKUcas/result/08.manuscript_03/partA/01.clean_wet/TTR_shRNAone_clean.csv
+[2026-07-26 20:33:36]     Regions: {'CDS': 434, "3'UTR": 145, "5'UTR": 9}
+[2026-07-26 20:33:36]   TTR_CasRx_day5: 591 rows → /data/cai801/data/HKUcas/result/08.manuscript_03/partA/01.clean_wet/TTR_CasRx_day5_clean.csv
+[2026-07-26 20:33:36]     Regions: {'CDS': 441, "3'UTR": 146, "5'UTR": 4}
+[2026-07-26 20:33:36]   PCSK9_shRNAone_3nt: 1230 rows → /data/cai801/data/HKUcas/result/08.manuscript_03/partA/01.clean_wet/PCSK9_shRNAone_3nt_clean.csv
+[2026-07-26 20:33:36]     Regions: {'CDS': 692, "3'UTR": 423, "5'UTR": 115}
+[2026-07-26 20:33:36] === Done ===

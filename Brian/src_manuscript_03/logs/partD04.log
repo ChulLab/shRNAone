@@ -1,0 +1,24 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggpubr’是用R版本4.3.3 来建造的 
+Type 'citation("pROC")' for a citation.
+
+载入程辑包：‘pROC’
+
+The following objects are masked from ‘package:stats’:
+
+    cov, smooth, var
+
+Warning message:
+程辑包‘pROC’是用R版本4.3.3 来建造的 
+[2026-07-28 19:08:32.521275] Step 1: Loading raw matrix and binary tags from upstream...
+ TRUE[2026-07-28 19:08:32.553725] Step 2: Starting permutation tests...
+ TRUE[2026-07-28 19:08:32.608668]   -> Processing shRNAone (W35_L20_U7)
+ TRUE[2026-07-28 19:08:34.719217]   -> Processing shRNAone (W80_L40_U7)
+ TRUE[2026-07-28 19:08:36.758061]   -> Processing shRNAone (W80_L40_U6)
+ TRUE[2026-07-28 19:08:38.801938]   -> Processing shRNAone (W80_L40_U16)
+ TRUE[2026-07-28 19:08:40.851518] Step 3: Saving results and rendering plots...
+ TRUE[2026-07-28 19:08:41.914426] Module partD.04 finished perfectly.
+ TRUE

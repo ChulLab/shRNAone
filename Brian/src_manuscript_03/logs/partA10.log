@@ -1,0 +1,36 @@
+nohup: 忽略输入
+['2026-07-26 20:52:48'] 03. Aligning model scores
+['2026-07-26 20:52:48']     Transcript length: 616 nt
+['2026-07-26 20:52:48']   Processing DeepCas13_18_NM_000371.4.csv...
+['2026-07-26 20:52:48']     Loaded DeepCas13: 598 rows
+['2026-07-26 20:52:48']     -> 598 aligned rows saved
+['2026-07-26 20:52:48']   Processing DeepCas13_23_NM_000371.4.csv...
+['2026-07-26 20:52:48']     Loaded DeepCas13: 593 rows
+['2026-07-26 20:52:48']     -> 593 aligned rows saved
+['2026-07-26 20:52:48']   Processing DeepCas13_30_NM_000371.4.csv...
+['2026-07-26 20:52:48']     Loaded DeepCas13: 586 rows
+['2026-07-26 20:52:48']     -> 586 aligned rows saved
+['2026-07-26 20:52:48']   Processing Fareh2024_30_NM_000371.4.csv...
+['2026-07-26 20:52:48']     Loaded Fareh2024: 542 rows
+['2026-07-26 20:52:48']     -> 542 aligned rows saved
+['2026-07-26 20:52:48']   Processing Hsu2023_30_NM_000371.4.csv...
+['2026-07-26 20:52:48']     Loaded Hsu2023: 587 rows
+['2026-07-26 20:52:48']     -> 587 aligned rows saved
+['2026-07-26 20:52:48']   Processing Sanjana2020_23_NM_000371.4.csv...
+['2026-07-26 20:52:48']     Loaded Sanjana2020: 594 rows
+['2026-07-26 20:52:48']     -> 594 aligned rows saved
+['2026-07-26 20:52:48']   Processing Sanjana2020_30_NM_000371.4.csv...
+['2026-07-26 20:52:48']     Loaded Sanjana2020: 587 rows
+['2026-07-26 20:52:48']     -> 587 aligned rows saved
+['2026-07-26 20:52:48']   Processing TIGER2023_23_NM_000371.4.csv...
+['2026-07-26 20:52:48']     Loaded TIGER2023: 591 rows
+['2026-07-26 20:52:48']     -> 591 aligned rows saved
+['2026-07-26 20:52:48']     Saved DeepCas13_18_aligned.csv (598 rows)
+['2026-07-26 20:52:48']     Saved DeepCas13_23_aligned.csv (593 rows)
+['2026-07-26 20:52:48']     Saved DeepCas13_30_aligned.csv (586 rows)
+['2026-07-26 20:52:48']     Saved Fareh2024_30_aligned.csv (542 rows)
+['2026-07-26 20:52:48']     Saved Hsu2023_30_aligned.csv (587 rows)
+['2026-07-26 20:52:48']     Saved Sanjana2020_23_aligned.csv (594 rows)
+['2026-07-26 20:52:48']     Saved Sanjana2020_30_aligned.csv (587 rows)
+['2026-07-26 20:52:48']     Saved TIGER2023_23_aligned.csv (591 rows)
+['2026-07-26 20:52:48'] 03. Done.

@@ -1,0 +1,29 @@
+nohup: 忽略输入
+['2026-07-26 21:16:38'] 04. Offset scanning: wet vs dry (method: spearman, align_by: end_pos)
+['2026-07-26 21:16:38'] 
+  === CasRx_day5 ===
+['2026-07-26 21:16:38']     Wet data: 591 targets
+['2026-07-26 21:16:39']     DeepCas13_23: best offset = 2, r = 0.1845
+['2026-07-26 21:16:39']     Hsu2023_30: best offset = 0, r = 0.2796
+['2026-07-26 21:16:39']     Sanjana2020_23: best offset = 0, r = 0.4374
+['2026-07-26 21:16:39']     TIGER2023_23: best offset = 0, r = 0.3779
+['2026-07-26 21:16:39']     Saved stat CSVs for CasRx_day5
+['2026-07-26 21:16:39'] 
+  === shRNAone ===
+['2026-07-26 21:16:39']     Wet data: 588 targets
+['2026-07-26 21:16:39']     DeepCas13_18: best offset = -4, r = 0.0392
+['2026-07-26 21:16:39']     Hsu2023_30: best offset = -48, r = 0.0920
+['2026-07-26 21:16:39']     Sanjana2020_23: best offset = 3, r = 0.1730
+['2026-07-26 21:16:39']     TIGER2023_23: best offset = 1, r = 0.1362
+['2026-07-26 21:16:39']     Saved stat CSVs for shRNAone
+['2026-07-26 21:16:39'] 
+  === PspCas13b ===
+['2026-07-26 21:16:39']     Wet data: 587 targets
+['2026-07-26 21:16:40']     Fareh2024_30: best offset = 23, r = 0.0876
+['2026-07-26 21:16:40']     DeepCas13_30: best offset = -45, r = 0.0253
+['2026-07-26 21:16:40']     Hsu2023_30: best offset = 50, r = 0.0471
+['2026-07-26 21:16:40']     Sanjana2020_30: best offset = 9, r = 0.1068
+['2026-07-26 21:16:40']     TIGER2023_23: best offset = 7, r = 0.1045
+['2026-07-26 21:16:40']     Saved stat CSVs for PspCas13b
+['2026-07-26 21:16:40'] 
+04. Done.

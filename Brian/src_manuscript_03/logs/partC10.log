@@ -1,0 +1,14 @@
+nohup: 忽略输入
+[2026-07-27 18:31:07] Step 1: Cleaning siRNA info...
+[2026-07-27 18:31:08] Mapped 2327 siRNAs. 104 unmapped.
+[2026-07-27 18:31:08] Saved continuous (2327) and binary (243) versions to /data/cai801/data/HKUcas/result/08.manuscript_03/partC/03.GT_siRNA_acc/00.clean_siRNA.
+[2026-07-27 18:31:08] Step 2: Preparing RNAplfold tasks...
+[2026-07-27 18:31:08] Total RNAplfold tasks to compute: 609
+[2026-07-27 18:31:08] Starting multiprocessing pool with 20 cores...
+[2026-07-27 18:31:08]   Progress: 100/609 completed
+[2026-07-27 18:31:08]   Progress: 200/609 completed
+[2026-07-27 18:31:09]   Progress: 300/609 completed
+[2026-07-27 18:31:09]   Progress: 400/609 completed
+[2026-07-27 18:31:10]   Progress: 500/609 completed
+[2026-07-27 18:31:11]   Progress: 600/609 completed
+[2026-07-27 18:31:12] Module partC.10 finished successfully. All _lunp files are ready for matrix extraction.

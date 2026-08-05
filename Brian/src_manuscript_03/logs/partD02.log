@@ -1,0 +1,66 @@
+nohup: 忽略输入
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggpubr’是用R版本4.3.3 来建造的 
+Type 'citation("pROC")' for a citation.
+
+载入程辑包：‘pROC’
+
+The following objects are masked from ‘package:stats’:
+
+    cov, smooth, var
+
+Warning message:
+程辑包‘pROC’是用R版本4.3.3 来建造的 
+[2026-07-27 23:32:21.068112] --- Task 1: TTR Combined Matrix (6 rows) ---
+ TRUEThere were 19 warnings (use warnings() to see them)
+[2026-07-27 23:32:25.45093] Task 1 PDF Generated: 7x8 inches layout.
+ TRUE[2026-07-27 23:32:25.451125] --- Task 2: PCSK9 Combined Matrix (2 rows) ---
+ TRUEWarning messages:
+1: In geom_segment(data = sig_dt, aes(x = 1, xend = 2, y = y_bracket,  :
+  All aesthetics have length 1, but the data has 4 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.
+2: In geom_segment(data = sig_dt, aes(x = 1, xend = 1, y = y_bracket,  :
+  All aesthetics have length 1, but the data has 4 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.
+3: In geom_segment(data = sig_dt, aes(x = 2, xend = 2, y = y_bracket,  :
+  All aesthetics have length 1, but the data has 4 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.
+4: In geom_segment(data = sig_dt, aes(x = 1, xend = 2, y = y_bracket,  :
+  All aesthetics have length 1, but the data has 4 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.
+5: In geom_segment(data = sig_dt, aes(x = 1, xend = 1, y = y_bracket,  :
+  All aesthetics have length 1, but the data has 4 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.
+6: In geom_segment(data = sig_dt, aes(x = 2, xend = 2, y = y_bracket,  :
+  All aesthetics have length 1, but the data has 4 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.
+7: Graphs cannot be horizontally aligned unless the axis parameter is set. Placing graphs unaligned. 
+[2026-07-27 23:32:27.003763] Task 2 PDF Generated: 7x3 inches layout.
+ TRUE[2026-07-27 23:32:27.003939] --- Task 3: siRNA Matrix Evaluation ---
+ TRUE[2026-07-27 23:32:27.190089] --- All Tasks Completed Successfully ---
+ TRUE

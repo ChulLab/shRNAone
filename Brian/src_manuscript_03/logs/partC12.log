@@ -1,0 +1,36 @@
+nohup: 忽略输入
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggpubr’是用R版本4.3.3 来建造的 
+[2026-08-03 22:28:20.651008] Step 1: Loading evaluation metrics...
+ TRUE[2026-08-03 22:28:20.684202] Step 2: Aggregating using Q1 and computing robust Composite Score...
+ TRUE[2026-08-03 22:28:20.701353] Reference Block_Score filled from matrix: 0.182217
+ TRUE[2026-08-03 22:28:20.707243] Final ranking saved successfully. Top parameter is W30_L20 (Composite=1.0000)
+ TRUE[2026-08-03 22:28:20.707486] Step 3: Generating scientific visualizations (Width <= 8 inches)...
+ TRUEWarning message:
+`aes_string()` was deprecated in ggplot2 3.0.0.
+ℹ Please use tidy evaluation idioms with `aes()`.
+ℹ See also `vignette("ggplot2-in-packages")` for more information. 
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+[2026-08-03 22:28:23.8267] Module partC.12 finished successfully.
+ TRUE

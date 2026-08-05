@@ -1,0 +1,29 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+
+载入程辑包：‘data.table’
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+[2026-07-27 14:08:09.745217] Loading and merging data using optimized data.table I/O...
+ TRUE[2026-07-27 14:08:12.009341] Filtering data for Reference Baseline: W=80, L=40
+ TRUE[2026-07-27 14:08:12.681931] Processing and plotting for direction: 3prime
+ TRUE[2026-07-27 14:08:13.285598] Processing and plotting for direction: downstream
+ TRUE[2026-07-27 14:08:13.862289] Module partC.01 finished successfully in high-performance mode.
+ TRUE

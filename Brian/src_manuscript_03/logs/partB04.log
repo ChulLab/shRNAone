@@ -1,0 +1,54 @@
+nohup: 忽略输入
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘broom’是用R版本4.3.3 来建造的 
+
+载入程辑包：‘data.table’
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+程辑包‘ranger’是用R版本4.3.3 来建造的 
+载入需要的程辑包：nlme
+
+载入程辑包：‘nlme’
+
+The following object is masked from ‘package:dplyr’:
+
+    collapse
+
+This is mgcv 1.9-0. For overview type 'help("mgcv-package")'.
+[2026-07-30 21:40:20.35684] Step 1: Loading and aggregating grid search data...
+ TRUE[2026-07-30 21:40:24.5081] Global parameter space loaded successfully: 1702004 rows retained.
+ TRUE[2026-07-30 21:40:24.544424] >>> Processing Tool: shRNAone
+ TRUE[2026-07-30 21:40:24.738144]     Running ANOVA Type I...
+ TRUE[2026-07-30 21:40:24.873627]     Running Standardized Linear Regression...
+ TRUE[2026-07-30 21:40:25.4017]     Running Fast Random Forest (Permutation Importance)...
+ TRUE[2026-07-30 21:40:33.04596]     Running Generalized Additive Model (GAM)...
+ TRUE[2026-07-30 21:41:37.917188] >>> Processing Tool: PspCas13b
+ TRUE[2026-07-30 21:41:37.948623]     Running ANOVA Type I...
+ TRUE[2026-07-30 21:41:38.222253]     Running Standardized Linear Regression...
+ TRUE[2026-07-30 21:41:38.937927]     Running Fast Random Forest (Permutation Importance)...
+ TRUE[2026-07-30 21:41:57.318131]     Running Generalized Additive Model (GAM)...
+ TRUE[2026-07-30 21:43:11.770327] >>> Processing Tool: CasRx_day5
+ TRUE[2026-07-30 21:43:11.791096]     Running ANOVA Type I...
+ TRUE[2026-07-30 21:43:11.917594]     Running Standardized Linear Regression...
+ TRUE[2026-07-30 21:43:12.302101]     Running Fast Random Forest (Permutation Importance)...
+ TRUE[2026-07-30 21:43:19.963491]     Running Generalized Additive Model (GAM)...
+ TRUE[2026-07-30 21:43:41.0079] Step 3: Saving computed statistical results to cache...
+ TRUE[2026-07-30 21:43:46.693997] --- All Calculations Completed Successfully! ---
+ TRUE

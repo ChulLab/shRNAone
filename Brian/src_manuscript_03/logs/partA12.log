@@ -1,0 +1,74 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+[2026-07-26 21:07:59.464713] 02. Offset scanning: All-vs-All dry models (align by: start_pos, method: Pearson)
+ TRUE[2026-07-26 21:07:59.546385]   Scanning: [Base] Sanjana2020_23 vs [Shift] Sanjana2020_23
+ TRUE[2026-07-26 21:07:59.547912]   Scanning: [Base] Sanjana2020_23 vs [Shift] TIGER2023_23
+ TRUE[2026-07-26 21:07:59.649125]   Scanning: [Base] Sanjana2020_23 vs [Shift] Hsu2023_30
+ TRUE[2026-07-26 21:07:59.7447]   Scanning: [Base] Sanjana2020_23 vs [Shift] DeepCas13_18
+ TRUE[2026-07-26 21:07:59.835258]   Scanning: [Base] Sanjana2020_23 vs [Shift] DeepCas13_23
+ TRUE[2026-07-26 21:07:59.925728]   Scanning: [Base] Sanjana2020_23 vs [Shift] DeepCas13_30
+ TRUE[2026-07-26 21:08:00.015922]   Scanning: [Base] Sanjana2020_23 vs [Shift] Fareh2024_30
+ TRUE[2026-07-26 21:08:00.105653]   Scanning: [Base] Sanjana2020_23 vs [Shift] Sanjana2020_30
+ TRUE[2026-07-26 21:08:00.196384]   Scanning: [Base] TIGER2023_23 vs [Shift] Sanjana2020_23
+ TRUE[2026-07-26 21:08:00.286886]   Scanning: [Base] TIGER2023_23 vs [Shift] TIGER2023_23
+ TRUE[2026-07-26 21:08:00.287602]   Scanning: [Base] TIGER2023_23 vs [Shift] Hsu2023_30
+ TRUE[2026-07-26 21:08:00.38571]   Scanning: [Base] TIGER2023_23 vs [Shift] DeepCas13_18
+ TRUE[2026-07-26 21:08:00.478075]   Scanning: [Base] TIGER2023_23 vs [Shift] DeepCas13_23
+ TRUE[2026-07-26 21:08:00.568272]   Scanning: [Base] TIGER2023_23 vs [Shift] DeepCas13_30
+ TRUE[2026-07-26 21:08:00.6582]   Scanning: [Base] TIGER2023_23 vs [Shift] Fareh2024_30
+ TRUE[2026-07-26 21:08:00.766074]   Scanning: [Base] TIGER2023_23 vs [Shift] Sanjana2020_30
+ TRUE[2026-07-26 21:08:00.859281]   Scanning: [Base] Hsu2023_30 vs [Shift] Sanjana2020_23
+ TRUE[2026-07-26 21:08:00.949268]   Scanning: [Base] Hsu2023_30 vs [Shift] TIGER2023_23
+ TRUE[2026-07-26 21:08:01.039302]   Scanning: [Base] Hsu2023_30 vs [Shift] Hsu2023_30
+ TRUE[2026-07-26 21:08:01.040028]   Scanning: [Base] Hsu2023_30 vs [Shift] DeepCas13_18
+ TRUE[2026-07-26 21:08:01.131042]   Scanning: [Base] Hsu2023_30 vs [Shift] DeepCas13_23
+ TRUE[2026-07-26 21:08:01.221887]   Scanning: [Base] Hsu2023_30 vs [Shift] DeepCas13_30
+ TRUE[2026-07-26 21:08:01.31214]   Scanning: [Base] Hsu2023_30 vs [Shift] Fareh2024_30
+ TRUE[2026-07-26 21:08:01.400994]   Scanning: [Base] Hsu2023_30 vs [Shift] Sanjana2020_30
+ TRUE[2026-07-26 21:08:01.490787]   Scanning: [Base] DeepCas13_18 vs [Shift] Sanjana2020_23
+ TRUE[2026-07-26 21:08:01.582124]   Scanning: [Base] DeepCas13_18 vs [Shift] TIGER2023_23
+ TRUE[2026-07-26 21:08:01.673147]   Scanning: [Base] DeepCas13_18 vs [Shift] Hsu2023_30
+ TRUE[2026-07-26 21:08:01.763772]   Scanning: [Base] DeepCas13_18 vs [Shift] DeepCas13_18
+ TRUE[2026-07-26 21:08:01.764496]   Scanning: [Base] DeepCas13_18 vs [Shift] DeepCas13_23
+ TRUE[2026-07-26 21:08:01.85556]   Scanning: [Base] DeepCas13_18 vs [Shift] DeepCas13_30
+ TRUE[2026-07-26 21:08:01.946245]   Scanning: [Base] DeepCas13_18 vs [Shift] Fareh2024_30
+ TRUE[2026-07-26 21:08:02.035652]   Scanning: [Base] DeepCas13_18 vs [Shift] Sanjana2020_30
+ TRUE[2026-07-26 21:08:02.127493]   Scanning: [Base] DeepCas13_23 vs [Shift] Sanjana2020_23
+ TRUE[2026-07-26 21:08:02.218545]   Scanning: [Base] DeepCas13_23 vs [Shift] TIGER2023_23
+ TRUE[2026-07-26 21:08:02.312457]   Scanning: [Base] DeepCas13_23 vs [Shift] Hsu2023_30
+ TRUE[2026-07-26 21:08:02.40417]   Scanning: [Base] DeepCas13_23 vs [Shift] DeepCas13_18
+ TRUE[2026-07-26 21:08:02.495511]   Scanning: [Base] DeepCas13_23 vs [Shift] DeepCas13_23
+ TRUE[2026-07-26 21:08:02.496246]   Scanning: [Base] DeepCas13_23 vs [Shift] DeepCas13_30
+ TRUE[2026-07-26 21:08:02.587102]   Scanning: [Base] DeepCas13_23 vs [Shift] Fareh2024_30
+ TRUE[2026-07-26 21:08:02.676611]   Scanning: [Base] DeepCas13_23 vs [Shift] Sanjana2020_30
+ TRUE[2026-07-26 21:08:02.767415]   Scanning: [Base] DeepCas13_30 vs [Shift] Sanjana2020_23
+ TRUE[2026-07-26 21:08:02.858415]   Scanning: [Base] DeepCas13_30 vs [Shift] TIGER2023_23
+ TRUE[2026-07-26 21:08:02.949243]   Scanning: [Base] DeepCas13_30 vs [Shift] Hsu2023_30
+ TRUE[2026-07-26 21:08:03.039937]   Scanning: [Base] DeepCas13_30 vs [Shift] DeepCas13_18
+ TRUE[2026-07-26 21:08:03.132021]   Scanning: [Base] DeepCas13_30 vs [Shift] DeepCas13_23
+ TRUE[2026-07-26 21:08:03.223506]   Scanning: [Base] DeepCas13_30 vs [Shift] DeepCas13_30
+ TRUE[2026-07-26 21:08:03.224246]   Scanning: [Base] DeepCas13_30 vs [Shift] Fareh2024_30
+ TRUE[2026-07-26 21:08:03.313944]   Scanning: [Base] DeepCas13_30 vs [Shift] Sanjana2020_30
+ TRUE[2026-07-26 21:08:03.404585]   Scanning: [Base] Fareh2024_30 vs [Shift] Sanjana2020_23
+ TRUE[2026-07-26 21:08:03.493809]   Scanning: [Base] Fareh2024_30 vs [Shift] TIGER2023_23
+ TRUE[2026-07-26 21:08:03.582876]   Scanning: [Base] Fareh2024_30 vs [Shift] Hsu2023_30
+ TRUE[2026-07-26 21:08:03.671971]   Scanning: [Base] Fareh2024_30 vs [Shift] DeepCas13_18
+ TRUE[2026-07-26 21:08:03.761347]   Scanning: [Base] Fareh2024_30 vs [Shift] DeepCas13_23
+ TRUE[2026-07-26 21:08:03.850561]   Scanning: [Base] Fareh2024_30 vs [Shift] DeepCas13_30
+ TRUE[2026-07-26 21:08:03.93952]   Scanning: [Base] Fareh2024_30 vs [Shift] Fareh2024_30
+ TRUE[2026-07-26 21:08:03.940248]   Scanning: [Base] Fareh2024_30 vs [Shift] Sanjana2020_30
+ TRUE[2026-07-26 21:08:04.029352]   Scanning: [Base] Sanjana2020_30 vs [Shift] Sanjana2020_23
+ TRUE[2026-07-26 21:08:04.120673]   Scanning: [Base] Sanjana2020_30 vs [Shift] TIGER2023_23
+ TRUE[2026-07-26 21:08:04.212699]   Scanning: [Base] Sanjana2020_30 vs [Shift] Hsu2023_30
+ TRUE[2026-07-26 21:08:04.303858]   Scanning: [Base] Sanjana2020_30 vs [Shift] DeepCas13_18
+ TRUE[2026-07-26 21:08:04.395077]   Scanning: [Base] Sanjana2020_30 vs [Shift] DeepCas13_23
+ TRUE[2026-07-26 21:08:04.486296]   Scanning: [Base] Sanjana2020_30 vs [Shift] DeepCas13_30
+ TRUE[2026-07-26 21:08:04.577155]   Scanning: [Base] Sanjana2020_30 vs [Shift] Fareh2024_30
+ TRUE[2026-07-26 21:08:04.666753]   Scanning: [Base] Sanjana2020_30 vs [Shift] Sanjana2020_30
+ TRUE[2026-07-26 21:08:04.693045]   Saved heatmap stats data: 02.offset_dry_innate.csv
+ TRUEnull device 
+          1 
+[2026-07-26 21:08:04.905452]   Saved heatmap plot: 02.offset_dry_innate.pdf
+ TRUE[2026-07-26 21:08:04.905604] 16. Done.
+ TRUE

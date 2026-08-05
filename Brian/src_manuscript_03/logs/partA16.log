@@ -1,0 +1,22 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggpubr’是用R版本4.3.3 来建造的 
+[2026-07-28 17:55:08.77856] Starting Spatial Permutation for Part A External Models...
+ TRUE[2026-07-28 17:55:08.830433]   -> Permuting CasRx_day5 vs DeepCas13_23 (Off:2)
+ TRUE[2026-07-28 17:55:09.105069]   -> Permuting CasRx_day5 vs Hsu2023_30 (Off:0)
+ TRUE[2026-07-28 17:55:09.315122]   -> Permuting CasRx_day5 vs Sanjana2020_23 (Off:0)
+ TRUE[2026-07-28 17:55:09.518124]   -> Permuting CasRx_day5 vs TIGER2023_23 (Off:0)
+ TRUE[2026-07-28 17:55:09.738627]   -> Permuting shRNAone vs DeepCas13_18 (Off:-4)
+ TRUE[2026-07-28 17:55:09.972386]   -> Permuting shRNAone vs Hsu2023_30 (Off:-48)
+ TRUE[2026-07-28 17:55:10.167377]   -> Permuting shRNAone vs Sanjana2020_23 (Off:3)
+ TRUE[2026-07-28 17:55:10.373942]   -> Permuting shRNAone vs TIGER2023_23 (Off:1)
+ TRUE[2026-07-28 17:55:10.581915]   -> Permuting PspCas13b vs Fareh2024_30 (Off:23)
+ TRUE[2026-07-28 17:55:10.79071]   -> Permuting PspCas13b vs DeepCas13_30 (Off:-45)
+ TRUE[2026-07-28 17:55:10.982719]   -> Permuting PspCas13b vs Hsu2023_30 (Off:50)
+ TRUE[2026-07-28 17:55:11.181458]   -> Permuting PspCas13b vs Sanjana2020_30 (Off:9)
+ TRUE[2026-07-28 17:55:11.181711]     [Warning] NA values found in prediction_score.
+ TRUE[2026-07-28 17:55:11.418116]   -> Permuting PspCas13b vs TIGER2023_23 (Off:7)
+ TRUE[2026-07-28 17:55:13.059712] Module partA.16 Spatial Permutation finished perfectly.
+ TRUE

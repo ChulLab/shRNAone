@@ -1,0 +1,60 @@
+nohup: 忽略输入
+载入需要的程辑包：Matrix
+Warning message:
+程辑包‘lme4’是用R版本4.3.2 来建造的 
+
+载入程辑包：‘lmerTest’
+
+The following object is masked from ‘package:lme4’:
+
+    lmer
+
+The following object is masked from ‘package:stats’:
+
+    step
+
+Warning message:
+程辑包‘lmerTest’是用R版本4.3.3 来建造的 
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+Warning message:
+程辑包‘emmeans’是用R版本4.3.3 来建造的 
+载入需要的程辑包：foreach
+载入需要的程辑包：iterators
+[2026-07-30 19:33:30.148911] Step 1: Loading Grid Data via data.table...
+ TRUE[2026-07-30 19:33:39.874473] Checkpoint 1 Saved. Valid significant points: 1494198
+ TRUE[2026-07-30 19:33:39.87518] Step 2: Executing Parallel K-S Tests and computing Cohen's d...
+ TRUE[2026-07-30 19:33:40.533845] Checkpoint 2 Saved. K-S Tests & Effect Sizes computed.
+ TRUE[2026-07-30 19:33:40.534118] Step 3: Executing Variance Partitioning (ANOVA Eta-Squared)...
+ TRUE[2026-07-30 19:33:43.231879] Checkpoint 3 Saved. Variance Partitioning complete.
+ TRUE[2026-07-30 19:33:43.232293] Step 4: Constructing LMM with nloptwrap optimization...
+ TRUENote: D.f. calculations have been disabled because the number of observations exceeds 3000.
+To enable adjustments, add the argument 'pbkrtest.limit = 140271' (or larger)
+[or, globally, 'set emm_options(pbkrtest.limit = 140271)' or larger];
+but be warned that this may result in large computation time and memory use.
+Note: D.f. calculations have been disabled because the number of observations exceeds 3000.
+To enable adjustments, add the argument 'lmerTest.limit = 140271' (or larger)
+[or, globally, 'set emm_options(lmerTest.limit = 140271)' or larger];
+but be warned that this may result in large computation time and memory use.
+Note: D.f. calculations have been disabled because the number of observations exceeds 3000.
+To enable adjustments, add the argument 'pbkrtest.limit = 230988' (or larger)
+[or, globally, 'set emm_options(pbkrtest.limit = 230988)' or larger];
+but be warned that this may result in large computation time and memory use.
+Note: D.f. calculations have been disabled because the number of observations exceeds 3000.
+To enable adjustments, add the argument 'lmerTest.limit = 230988' (or larger)
+[or, globally, 'set emm_options(lmerTest.limit = 230988)' or larger];
+but be warned that this may result in large computation time and memory use.
+Note: D.f. calculations have been disabled because the number of observations exceeds 3000.
+To enable adjustments, add the argument 'pbkrtest.limit = 1122939' (or larger)
+[or, globally, 'set emm_options(pbkrtest.limit = 1122939)' or larger];
+but be warned that this may result in large computation time and memory use.
+Note: D.f. calculations have been disabled because the number of observations exceeds 3000.
+To enable adjustments, add the argument 'lmerTest.limit = 1122939' (or larger)
+[or, globally, 'set emm_options(lmerTest.limit = 1122939)' or larger];
+but be warned that this may result in large computation time and memory use.
+[2026-07-30 19:37:11.663174] Checkpoint 4 Saved. LMM estimates extracted.
+ TRUE[2026-07-30 19:37:11.66384] Step 5: Calculating Hypergeometric Enrichment...
+ TRUE[2026-07-30 19:37:12.007666] Checkpoint 5 Saved. Hypergeometric enrichment complete.
+ TRUE[2026-07-30 19:37:12.008804] === Compute Core Execution Complete. Data cached for rapid plotting. ===
+ TRUE

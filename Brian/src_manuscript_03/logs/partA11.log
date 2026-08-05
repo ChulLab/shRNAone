@@ -1,0 +1,21 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggrepel’是用R版本4.3.3 来建造的 
+[2026-07-26 21:03:23.81439] 01. Offset scanning: wet vs wet (innate pairwise, align by: start_pos, method: Pearson)
+ TRUE[2026-07-26 21:03:23.854752] 
+  === shRNAone (Base) vs CasRx_day5 (Shift) ===
+ TRUE[2026-07-26 21:03:24.013]     Best offset: -1 nt, r = 0.3892
+ TRUE[2026-07-26 21:03:24.013159] 
+  === shRNAone (Base) vs PspCas13b (Shift) ===
+ TRUE[2026-07-26 21:03:24.167701]     Best offset: -13 nt, r = 0.3384
+ TRUE[2026-07-26 21:03:24.167869] 
+  === CasRx_day5 (Base) vs PspCas13b (Shift) ===
+ TRUE[2026-07-26 21:03:24.316688]     Best offset: -15 nt, r = 0.3053
+ TRUE[2026-07-26 21:03:24.318839]   Saved offset scan data: 01.offset_wet_innate.csv
+ TRUEnull device 
+          1 
+[2026-07-26 21:03:24.622776]   Saved plot: 01.offset_wet_innate.pdf
+ TRUE[2026-07-26 21:03:24.622935] 15. Done.
+ TRUE

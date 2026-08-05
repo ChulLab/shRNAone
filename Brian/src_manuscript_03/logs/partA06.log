@@ -1,0 +1,7 @@
+nohup: 忽略输入
+[2026-08-02 20:09:04] 06. RNAxs (Accessibility-based): NM_000371.4
+[2026-08-02 20:09:04]     Guide length: 19 nt (native siRNA length)
+[2026-08-02 20:09:04]     Transcript length: 616 nt
+[2026-08-02 20:09:04]     Invoking RNAxs.pl in background...
+[2026-08-02 20:09:16]     598 predictions merged and evaluated -> RNAxs_19_NM_000371.4.csv
+[2026-08-02 20:09:16] 06. Done.

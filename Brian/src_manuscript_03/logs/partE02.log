@@ -1,0 +1,10 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+Warning message:
+程辑包‘ggpubr’是用R版本4.3.3 来建造的 
+[2026-07-28 21:35:01.910518] Loading cluster labels and accessibility matrices...
+ TRUE[2026-07-28 21:35:01.972614] Generating synchronized Boxplots across all windows...
+ TRUE[2026-07-28 21:35:07.588771] Stitching all windows vertically into a single seamless PDF...
+ TRUE[2026-07-28 21:35:09.358481] Part E.02 All Done. Unified scales, clean labels, and complete significance markers applied.
+ TRUE

@@ -1,0 +1,13 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+[2026-07-26 21:22:38.574683] 14. Building wet-vs-dry plots (method: Spearman, align by: end_pos)
+ TRUE[2026-07-26 21:22:38.948363]   Saved offset plot: 02.offset_wet_dry_CasRx_day5.pdf
+ TRUE[2026-07-26 21:22:39.597164]   Saved track plot : 02.compare_wet_dry_CasRx_day5.pdf
+ TRUE[2026-07-26 21:22:39.907354]   Saved offset plot: 03.offset_wet_dry_shRNAone.pdf
+ TRUE[2026-07-26 21:22:40.467374]   Saved track plot : 03.compare_wet_dry_shRNAone.pdf
+ TRUE[2026-07-26 21:22:40.64006]   Saved offset plot: 04.offset_wet_dry_PspCas13b.pdf
+ TRUE[2026-07-26 21:22:41.353913]   Saved track plot : 04.compare_wet_dry_PspCas13b.pdf
+ TRUEThere were 39 warnings (use warnings() to see them)
+[2026-07-26 21:22:41.35414] 14. Done.
+ TRUE

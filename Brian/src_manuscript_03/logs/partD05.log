@@ -1,0 +1,31 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+[2026-07-28 19:20:26.728398] Step 1: Loading Part A external models baseline...
+ TRUE[2026-07-28 19:20:26.732892] Step 2: Extracting targeted Self-Models from Part B grids...
+ TRUE[2026-07-28 19:20:28.304285] Grand comparison stats saved to: /data/cai801/data/HKUcas/result/08.manuscript_03/partD/02.best_combination/01.Grand_Performance_Compare.csv
+ TRUE[2026-07-28 19:20:28.304469] Step 3: Generating faceted bar plots...
+ TRUEWarning message:
+Removed 1 row containing missing values or values outside the scale range
+(`geom_text()`). 
+null device 
+          1 
+[2026-07-28 19:20:29.041594] Grand multi-region bar plot saved successfully to: /data/cai801/data/HKUcas/result/08.manuscript_03/partD/02.best_combination/02.Grand_Performance_Compare.pdf
+ TRUE

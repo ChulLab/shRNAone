@@ -1,0 +1,40 @@
+nohup: 忽略输入
+['2026-07-26 20:42:19'] 03. Hsu 2023 Web: NM_000371.4
+['2026-07-26 20:42:19']     Guide length: 30 nt (native, fixed by model architecture)
+['2026-07-26 20:42:19']     Note: linearfold.py hardcodes 30nt guide extraction.
+['2026-07-26 20:42:19']     Keras model input shape: (30, 4) — cannot be changed without retraining.
+2026-07-26 20:42:20.092945: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-07-26 20:42:20.095886: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-07-26 20:42:20.135998: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-26 20:42:20.136034: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-26 20:42:20.137163: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-07-26 20:42:20.143490: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-07-26 20:42:20.143684: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-07-26 20:42:20.880165: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-07-26 20:42:22.013 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+['2026-07-26 20:42:22']     Running prediction ...
+2026-07-26 20:42:22.014 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+Making guide library features for /tmp/tmp2suk_vyh/3ff84c9a-ede2-450f-91e9-d54c9782ac9e.fasta
+Running LinearFold on /tmp/tmp2suk_vyh/3ff84c9a-ede2-450f-91e9-d54c9782ac9e_linfold_guides_input.fasta
+Running LinearFold on /tmp/tmp2suk_vyh/3ff84c9a-ede2-450f-91e9-d54c9782ac9e_linfold_guides_nearby15_input.fasta
+Running LinearFold on /tmp/tmp2suk_vyh/3ff84c9a-ede2-450f-91e9-d54c9782ac9e_linfold_guides_constraints_nearby15_input.fasta
+Integrating Linearfold results...
+  File written: /tmp/tmp2suk_vyh/3ff84c9a-ede2-450f-91e9-d54c9782ac9e_guides_integrated_features.csv
+Running ensemble prediction...
+2026-07-26 20:42:25.018760: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:274] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Loading saved model...
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+1/5 [=====>........................] - ETA: 0s5/5 [==============================] - 0s 5ms/step
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+1/5 [=====>........................] - ETA: 0s5/5 [==============================] - 0s 3ms/step
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+1/5 [=====>........................] - ETA: 0s5/5 [==============================] - 0s 3ms/step
+  Predictions written to /tmp/tmp2suk_vyh/3ff84c9a-ede2-450f-91e9-d54c9782ac9e_guides_integrated_features_guide_prediction_ensemble.csv
+Parsing prediction results...
+Cleaning up temporary files...
+  Predictions written: /data/cai801/data/HKUcas/result/08.manuscript_03/partA/02.original_pred/Hsu2023_30_NM_000371.4.csv
+['2026-07-26 20:42:27']     587 guides predicted -> Hsu2023_30_NM_000371.4.csv
+['2026-07-26 20:42:27'] 03. Done.

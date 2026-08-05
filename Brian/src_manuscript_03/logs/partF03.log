@@ -1,0 +1,24 @@
+nohup: 忽略输入
+[2026-07-28 22:07:34] === 03.extract_matrix_PspCas13b.py ===
+[2026-07-28 22:07:35] Loaded 19367 transcripts. Starting 70 workers...
+[2026-07-28 22:07:36] Progress: [1000/19367] | Success: 1000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:37] Progress: [2000/19367] | Success: 2000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:39] Progress: [3000/19367] | Success: 3000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:41] Progress: [4000/19367] | Success: 4000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:42] Progress: [5000/19367] | Success: 5000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:44] Progress: [6000/19367] | Success: 6000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:45] Progress: [7000/19367] | Success: 7000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:47] Progress: [8000/19367] | Success: 8000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:48] Progress: [9000/19367] | Success: 9000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:49] Progress: [10000/19367] | Success: 10000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:52] Progress: [11000/19367] | Success: 11000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:53] Progress: [12000/19367] | Success: 12000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:55] Progress: [13000/19367] | Success: 13000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:57] Progress: [14000/19367] | Success: 14000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:07:58] Progress: [15000/19367] | Success: 15000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:08:00] Progress: [16000/19367] | Success: 16000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:08:02] Progress: [17000/19367] | Success: 17000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:08:03] Progress: [18000/19367] | Success: 18000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:08:04] Progress: [19000/19367] | Success: 19000 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:08:05] Progress: [19367/19367] | Success: 19367 | Skipped: 0 | Missing LUNP: 0
+[2026-07-28 22:08:05] === Done ===

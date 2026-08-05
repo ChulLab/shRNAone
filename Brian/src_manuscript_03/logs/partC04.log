@@ -1,0 +1,46 @@
+nohup: 忽略输入
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+[2026-07-27 17:52:54.195274] Loading strict block stats: 02.Block_Stats_Strict_whole_Weighted_Score_Mean.csv
+ TRUE[2026-07-27 17:52:54.209411] Applying Spatial NMS to select independent representative clusters...
+ TRUE[2026-07-27 17:52:54.319499] Selection complete. Candidate list generated:
+ TRUE             Source  W  L Block_Score
+ 1:  Cluster_Rank_1 25 10      0.3025
+ 2:  Cluster_Rank_2 20 10      0.3008
+ 3:  Cluster_Rank_3 30 10      0.2990
+ 4:  Cluster_Rank_4 35 10      0.2960
+ 5:  Cluster_Rank_5 20 15      0.2800
+ 6:  Cluster_Rank_6 25 15      0.2756
+ 7:  Cluster_Rank_7 40 10      0.2692
+ 8:  Cluster_Rank_8 30 15      0.2688
+ 9:  Cluster_Rank_9 35 15      0.2667
+10: Cluster_Rank_10 40 15      0.2576
+11: Cluster_Rank_11 45 15      0.2439
+12: Cluster_Rank_12 30 20      0.2429
+13: Cluster_Rank_13 35 20      0.2419
+14: Cluster_Rank_14 40 20      0.2312
+15: Cluster_Rank_15 45 20      0.2287
+16: Cluster_Rank_16 50 15      0.2281
+17: Cluster_Rank_17 50 20      0.2260
+18: Cluster_Rank_18 55 20      0.2243
+19: Cluster_Rank_19 60 20      0.2221
+20: Cluster_Rank_20 65 20      0.2199
+21:       Reference 80 40          NA
+             Source  W  L Block_Score
+[2026-07-27 17:52:54.321733] Saved to: /data/cai801/data/HKUcas/result/08.manuscript_03/partC/01.Self_WL_list/03.selected_WL_Candidates.csv
+ TRUE

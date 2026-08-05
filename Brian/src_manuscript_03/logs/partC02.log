@@ -1,0 +1,26 @@
+nohup: 忽略输入
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+[2026-07-27 14:59:39.789421] Loading grid results and applying Base constraints (3prime, whole & 3'UTR)...
+ TRUE[2026-07-27 14:59:42.219612] Applying unified tool-specific U Plateau masks...
+ TRUE[2026-07-27 14:59:42.377031] Calculating Max_r and Mean_r grouped by (W, L), tool, and region...
+ TRUE[2026-07-27 14:59:42.553723] Constructing matrices and applying weighting system...
+ TRUE[2026-07-27 14:59:42.606032] Extraction complete for [whole]. Matrix saved to: /data/cai801/data/HKUcas/result/08.manuscript_03/partC/01.Self_WL_list/00.WL_Performance_Matrix_whole.csv
+ TRUE[2026-07-27 14:59:42.634238] Extraction complete for [3'UTR]. Matrix saved to: /data/cai801/data/HKUcas/result/08.manuscript_03/partC/01.Self_WL_list/00.WL_Performance_Matrix_3UTR.csv
+ TRUE[2026-07-27 14:59:42.634429] All matrix extraction tasks completed successfully.
+ TRUE

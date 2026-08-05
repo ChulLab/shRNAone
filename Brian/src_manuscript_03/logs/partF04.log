@@ -1,0 +1,31 @@
+nohup: 忽略输入
+Warning message:
+程辑包‘ggplot2’是用R版本4.3.3 来建造的 
+
+载入程辑包：‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+程辑包‘dplyr’是用R版本4.3.3 来建造的 
+[2026-07-28 22:36:46.200496] Searching for gene: RPLP0
+ TRUE[2026-07-28 22:36:46.612762] Found RPLP0: Accession = NM_001002 (Length = 1105 nt)
+ TRUE[2026-07-28 22:36:46.61303] Loading target matrix and separating Top 50 / Full data...
+ TRUE[2026-07-28 22:36:46.618039] Full dataset saved to: /data/cai801/data/HKUcas/result/08.manuscript_03/partF/03.example/Shiny_Demo_Data_RPLP0_full.csv
+ TRUEWarning message:
+In melt.data.table(df, id.vars = c("transcript_version", "start_pos",  :
+  'value.name' 同时出现在了 'measure.vars'和 'value.name' 参数中；'measure.vars' 中的值将被优先使用。
+[2026-07-28 22:36:46.621578] Rendering Shiny App Demo Track Plot in Log10 Scale...
+ TRUE[2026-07-28 22:36:47.328575] Plot successfully generated and saved to: /data/cai801/data/HKUcas/result/08.manuscript_03/partF/03.example/Shiny_Track_Example_RPLP0_Log.pdf
+ TRUE[2026-07-28 22:36:47.328751] Part F.04 execution complete. The hidden baseline patterns are now revealed!
+ TRUE
