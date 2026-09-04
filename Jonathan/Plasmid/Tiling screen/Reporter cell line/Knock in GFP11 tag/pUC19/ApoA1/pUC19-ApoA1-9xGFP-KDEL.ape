@@ -1,0 +1,414 @@
+LOCUS       pUC19_ApoA1_9xGF        4361 bp    DNA        circular     04-AUG-2021
+DEFINITION  pUC cloning vector.
+ACCESSION   .
+VERSION     .
+KEYWORDS    pUC19
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 2686)
+  AUTHORS   Norrander J, Kempe T, Messing J
+  TITLE     Construction of improved M13 vectors using
+            oligodeoxynucleotide-directed mutagenesis.
+  JOURNAL   Gene. 1983 Dec;26(1):101-6.
+  PUBMED    6323249
+REFERENCE   2  (bases 1 to 2686)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Sep 13, 2018 from SnapGene Server 1.1.58
+            http://www.snapgene.com
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     source          1..635
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+                     /locus_tag="source:synthetic DNA construct"
+                     /label="source:synthetic DNA construct"
+                     /ApEinfo_label="source:synthetic DNA construct"
+                     /ApEinfo_fwdcolor="#00DF87"
+                     /ApEinfo_revcolor="#00DF87"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+                     /ApEinfo_hidden=""
+     primer_bind     118..137
+                     /note="pBR322 origin, forward primer"
+                     /locus_tag="pBR322ori-F"
+                     /label="pBR322ori-F"
+                     /ApEinfo_label="pBR322ori-F"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     371..388
+                     /note="L4440 vector, forward primer"
+                     /locus_tag="L4440"
+                     /label="L4440"
+                     /ApEinfo_label="L4440"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     protein_bind    505..526
+                     /bound_moiety="E. coli catabolite activator protein"
+                     /note="CAP binding activates transcription in the presence
+                     of cAMP."
+                     /locus_tag="CAP binding site"
+                     /label="CAP binding site"
+                     /ApEinfo_label="CAP binding site"
+                     /ApEinfo_fwdcolor="#00D95A"
+                     /ApEinfo_revcolor="#00D95A"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     promoter        541..571
+                     /note="promoter for the E. coli lac operon"
+                     /locus_tag="lac promoter"
+                     /label="lac promoter"
+                     /ApEinfo_label="lac promoter"
+                     /ApEinfo_fwdcolor="#346ee0"
+                     /ApEinfo_revcolor="#346ee0"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     protein_bind    579..595
+                     /bound_moiety="lac repressor encoded by lacI"
+                     /note="The lac repressor binds to the lac operator to
+                     inhibit transcription in E. coli. This inhibition can be
+                     relieved by adding lactose or
+                     isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+                     /locus_tag="lac operator"
+                     /label="lac operator"
+                     /ApEinfo_label="lac operator"
+                     /ApEinfo_fwdcolor="#008065"
+                     /ApEinfo_revcolor="#008065"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     584..606
+                     /note="In lacZ gene"
+                     /locus_tag="M13/pUC Reverse"
+                     /label="M13/pUC Reverse"
+                     /ApEinfo_label="M13/pUC Reverse"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     603..619
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /locus_tag="M13 rev"
+                     /label="M13 rev"
+                     /ApEinfo_label="M13 rev"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    1843..1854
+                     /locus_tag="KDEL"
+                     /label="KDEL"
+                     /ApEinfo_label="KDEL"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1633..1680
+                     /locus_tag="XTEN"
+                     /label="XTEN"
+                     /ApEinfo_label="XTEN"
+                     /ApEinfo_fwdcolor="#ff80c0"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     603..619
+                     /note="In lacZ gene. Also called M13-rev"
+                     /locus_tag="M13 Reverse"
+                     /label="M13 Reverse"
+                     /ApEinfo_label="M13 Reverse"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             615..635
+                     /codon_start="1"
+                     /gene="lacZ fragment"
+                     /product="LacZ-alpha fragment of beta-galactosidase"
+                     /translation="MTMITPSLHACRSTLEDPRVPSSNSLAVVLQRRDWENPGVTQLN
+                     RLAAHPPFASWRNSEEARTDRPSQQLRSLNGEWRLMRYFLLTHLCGISHRIWCTLSTI
+                     CSDAA"
+                     /locus_tag="lacZ-alpha"
+                     /label="lacZ-alpha"
+                     /ApEinfo_label="lacZ-alpha"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    632..635
+                     /note="pUC18/19 multiple cloning site"
+                     /locus_tag="MCS"
+                     /label="MCS"
+                     /ApEinfo_label="MCS"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(2364..2381)
+                     /note="In lacZ gene. Also called M13-F20 or M13 (-21)
+                     Forward"
+                     /locus_tag="M13 Forward"
+                     /label="M13 Forward"
+                     /ApEinfo_label="M13 Forward"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    1162..1170
+                     /locus_tag="AAA"
+                     /label="AAA"
+                     /ApEinfo_label="AAA"
+                     /ApEinfo_fwdcolor="#ff8000"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(2364..2380)
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /locus_tag="M13 fwd"
+                     /label="M13 fwd"
+                     /ApEinfo_label="M13 fwd"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(2373..2395)
+                     /note="In lacZ gene"
+                     /locus_tag="M13/pUC Forward"
+                     /label="M13/pUC Forward"
+                     /ApEinfo_label="M13/pUC Forward"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(2589..2608)
+                     /note="pRS vectors, use to sequence yeast selectable
+                     marker"
+                     /locus_tag="pRS-marker"
+                     /label="pRS-marker"
+                     /ApEinfo_label="pRS-marker"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     2708..2730
+                     /note="pGEX vectors, reverse primer"
+                     /locus_tag="pGEX 3'"
+                     /label="pGEX 3'"
+                     /ApEinfo_label="pGEX 3'"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(2768..2786)
+                     /note="pBR322 vectors, upsteam of EcoRI site, forward
+                     primer"
+                     /locus_tag="pBRforEco"
+                     /label="pBRforEco"
+                     /ApEinfo_label="pBRforEco"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     promoter        2854..2958
+                     /gene="bla"
+                     /locus_tag="AmpR promoter"
+                     /label="AmpR promoter"
+                     /ApEinfo_label="AmpR promoter"
+                     /ApEinfo_fwdcolor="#346ee0"
+                     /ApEinfo_revcolor="#346ee0"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             2959..3819
+                     /codon_start="1"
+                     /gene="bla"
+                     /product="beta-lactamase"
+                     /note="confers resistance to ampicillin, carbenicillin,
+                     and related antibiotics"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+                     /locus_tag="AmpR"
+                     /label="AmpR"
+                     /ApEinfo_label="AmpR"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(3177..3196)
+                     /note="Ampicillin resistance gene, reverse primer"
+                     /locus_tag="Amp-R"
+                     /label="Amp-R"
+                     /ApEinfo_label="Amp-R"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     rep_origin      join(3990..4361,1..217)
+                     /direction="RIGHT"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+                     /locus_tag="ori"
+                     /label="ori"
+                     /ApEinfo_label="ori"
+                     /ApEinfo_fwdcolor="#999999"
+                     /ApEinfo_revcolor="#999999"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     source          2358..4361
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+                     /locus_tag="source:synthetic DNA construct(1)"
+                     /label="source:synthetic DNA construct(1)"
+                     /ApEinfo_label="source:synthetic DNA construct"
+                     /ApEinfo_fwdcolor="#00DF87"
+                     /ApEinfo_revcolor="#00DF87"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+                     /ApEinfo_hidden=""
+     misc_feature    1858..2357
+                     /locus_tag="ApoA1 3'UTR"
+                     /label="ApoA1 3'UTR"
+                     /ApEinfo_label="ApoA1 3'UTR"
+                     /ApEinfo_fwdcolor="#cc91a3"
+                     /ApEinfo_revcolor="#0079a8"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             2358..2613
+                     /codon_start="1"
+                     /gene="lacZ fragment"
+                     /product="LacZ-alpha fragment of beta-galactosidase"
+                     /translation="MTMITPSLHACRSTLEDPRVPSSNSLAVVLQRRDWENPGVTQLN
+                     RLAAHPPFASWRNSEEARTDRPSQQLRSLNGEWRLMRYFLLTHLCGISHRIWCTLSTI
+                     CSDAA"
+                     /locus_tag="lacZ-alpha(1)"
+                     /label="lacZ-alpha(1)"
+                     /ApEinfo_label="lacZ-alpha"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    2358..2363
+                     /note="pUC18/19 multiple cloning site"
+                     /locus_tag="MCS(1)"
+                     /label="MCS(1)"
+                     /ApEinfo_label="MCS"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    662..1161
+                     /locus_tag="ApoA1 ORF"
+                     /label="ApoA1 ORF"
+                     /ApEinfo_label="ApoA1 ORF"
+                     /ApEinfo_fwdcolor="#cc90a3"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    1795..1842
+                     /locus_tag="XTEN(1)"
+                     /label="XTEN(1)"
+                     /ApEinfo_label="XTEN"
+                     /ApEinfo_fwdcolor="#ff00ff"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1171..1632
+                     /locus_tag="7xGFP"
+                     /label="7xGFP"
+                     /ApEinfo_label="7xGFP"
+                     /ApEinfo_fwdcolor="#00f900"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    1681..1794
+                     /locus_tag="2xGFP"
+                     /label="2xGFP"
+                     /ApEinfo_label="2xGFP"
+                     /ApEinfo_fwdcolor="#00f900"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+ORIGIN
+        1 gagataccta cagcgtgagc tatgagaaag cgccacgctt cccgaaggga gaaaggcgga
+       61 caggtatccg gtaagcggca gggtcggaac aggagagcgc acgagggagc ttccaggggg
+      121 aaacgcctgg tatctttata gtcctgtcgg gtttcgccac ctctgacttg agcgtcgatt
+      181 tttgtgatgc tcgtcagggg ggcggagcct atggaaaaac gccagcaacg cggccttttt
+      241 acggttcctg gccttttgct ggccttttgc tcacatgttc tttcctgcgt tatcccctga
+      301 ttctgtggat aaccgtatta ccgcctttga gtgagctgat accgctcgcc gcagccgaac
+      361 gaccgagcgc agcgagtcag tgagcgagga agcggaagag cgcccaatac gcaaaccgcc
+      421 tctccccgcg cgttggccga ttcattaatg cagctggcac gacaggtttc ccgactggaa
+      481 agcgggcagt gagcgcaacg caattaatgt gagttagctc actcattagg caccccaggc
+      541 tttacacttt atgcttccgg ctcgtatgtt gtgtggaatt gtgagcggat aacaatttca
+      601 cacaggaaac agctatgacc atgattacgc caagcttgca tgcctgcagg tcgactctag
+      661 aaggagacag agggcctgag gcaggagatg agcaaggatc tggaggaggt gaaggccaag
+      721 gtgcagccct acctggacga cttccagaag aagtggcagg aggagatgga gctctaccgc
+      781 cagaaggtgg agccgctgcg cgcagagctc caagagggcg cgcgccagaa gctgcacgag
+      841 ctgcaagaga agctgagccc actgggcgag gagatgcgcg accgcgcgcg cgcccatgtg
+      901 gacgcgctgc gcacgcatct ggccccctac agcgacgagc tgcgccagcg cttggccgcg
+      961 cgccttgagg ctctcaagga gaacggcggc gccagactgg ccgagtacca cgccaaggcc
+     1021 accgagcatc tgagcacgct cagcgagaag gccaagcccg cgctcgagga cctccgccaa
+     1081 ggcctgctgc ccgtgctgga gagcttcaag gtcagcttcc tgagcgctct cgaggagtac
+     1141 actaagaagc tcaacaccca ggctgcagcc cgagaccaca tggtgctgca cgagtacgta
+     1201 aacgcggccg gtatcacggg aggcagtgca ggtggaagta gggatcatat ggttctgcat
+     1261 gagtatgtta atgcggcggg gatcactgca ggatccgggg gatccgggcg ggaccacatg
+     1321 gtacttcacg aatatgtgaa cgcagccgga atcacatccg ggggtgcgtc cggtggtcga
+     1381 gatcacatgg tgcttcacga gtatgtaaat gcggccggga taacaagtgg tggaggtgcg
+     1441 ggaagtagag atcacatggt attgcatgag tacgtcaatg ctgcgggtat cacaggcggt
+     1501 gggtctgcag gcagccgcga ccacatggta ctccacgagt acgtcaatgc cgcgggaatt
+     1561 accgctggtg gtagcggagg ctcacgcgac cacatggttc tgcatgaata cgtcaacgcc
+     1621 gctgggatca catctggctc tgagactccc ggtacatcag agtccgctac tcccgaatcc
+     1681 agggaccata tggttttgca cgagtatgtc aatgcggcag gtataacggg tggttccggc
+     1741 ggtagtagag atcatatggt cttgcacgag tacgtcaatg ccgcaggcat cacttccggc
+     1801 tctgagactc ccggcaccag cgagtcagcg actcccgaaa gtaaggacga attgtaaggc
+     1861 gcccgccgcc gccccccttc ccggtgctca gaataaacgt ttccaaagtg ggaagcagct
+     1921 tctttctttt gggagaatag aggggggtgc ggggacatcc gggggagccc gggtggggcc
+     1981 tttggccctg gagcagggac ttcctgccgg atctcaacaa ctccgtgccc agactggacg
+     2041 tcttagggcc aagatcgacg ttggaggacc tgctggacgc ctggctgctt acgagtgagg
+     2101 gagtagagtc tgccttagca aggctcaagt agaaaggaag tcacagcgga ccaggcaaag
+     2161 ccacagacaa tccaaggcca ggtgccctga aaggggctca aacaaggcct gcagccctgt
+     2221 ctgaggcggg ccaggaaaca gggttgcttt agctgggagc agtgggttcc ccgtccccag
+     2281 aggtgtgtcc gtatagagcc ttctccagcc cagccgctgt cagcggggcg ggacggagcg
+     2341 gggcggcctc agggagcgaa ttcactggcc gtcgttttac aacgtcgtga ctgggaaaac
+     2401 cctggcgtta cccaacttaa tcgccttgca gcacatcccc ctttcgccag ctggcgtaat
+     2461 agcgaagagg cccgcaccga tcgcccttcc caacagttgc gcagcctgaa tggcgaatgg
+     2521 cgcctgatgc ggtattttct ccttacgcat ctgtgcggta tttcacaccg catatggtgc
+     2581 actctcagta caatctgctc tgatgccgca tagttaagcc agccccgaca cccgccaaca
+     2641 cccgctgacg cgccctgacg ggcttgtctg ctcccggcat ccgcttacag acaagctgtg
+     2701 accgtctccg ggagctgcat gtgtcagagg ttttcaccgt catcaccgaa acgcgcgaga
+     2761 cgaaagggcc tcgtgatacg cctattttta taggttaatg tcatgataat aatggtttct
+     2821 tagacgtcag gtggcacttt tcggggaaat gtgcgcggaa cccctatttg tttatttttc
+     2881 taaatacatt caaatatgta tccgctcatg agacaataac cctgataaat gcttcaataa
+     2941 tattgaaaaa ggaagagtat gagtattcaa catttccgtg tcgcccttat tccctttttt
+     3001 gcggcatttt gccttcctgt ttttgctcac ccagaaacgc tggtgaaagt aaaagatgct
+     3061 gaagatcagt tgggtgcacg agtgggttac atcgaactgg atctcaacag cggtaagatc
+     3121 cttgagagtt ttcgccccga agaacgtttt ccaatgatga gcacttttaa agttctgcta
+     3181 tgtggcgcgg tattatcccg tattgacgcc gggcaagagc aactcggtcg ccgcatacac
+     3241 tattctcaga atgacttggt tgagtactca ccagtcacag aaaagcatct tacggatggc
+     3301 atgacagtaa gagaattatg cagtgctgcc ataaccatga gtgataacac tgcggccaac
+     3361 ttacttctga caacgatcgg aggaccgaag gagctaaccg cttttttgca caacatgggg
+     3421 gatcatgtaa ctcgccttga tcgttgggaa ccggagctga atgaagccat accaaacgac
+     3481 gagcgtgaca ccacgatgcc tgtagcaatg gcaacaacgt tgcgcaaact attaactggc
+     3541 gaactactta ctctagcttc ccggcaacaa ttaatagact ggatggaggc ggataaagtt
+     3601 gcaggaccac ttctgcgctc ggcccttccg gctggctggt ttattgctga taaatctgga
+     3661 gccggtgagc gtgggtctcg cggtatcatt gcagcactgg ggccagatgg taagccctcc
+     3721 cgtatcgtag ttatctacac gacggggagt caggcaacta tggatgaacg aaatagacag
+     3781 atcgctgaga taggtgcctc actgattaag cattggtaac tgtcagacca agtttactca
+     3841 tatatacttt agattgattt aaaacttcat ttttaattta aaaggatcta ggtgaagatc
+     3901 ctttttgata atctcatgac caaaatccct taacgtgagt tttcgttcca ctgagcgtca
+     3961 gaccccgtag aaaagatcaa aggatcttct tgagatcctt tttttctgcg cgtaatctgc
+     4021 tgcttgcaaa caaaaaaacc accgctacca gcggtggttt gtttgccgga tcaagagcta
+     4081 ccaactcttt ttccgaaggt aactggcttc agcagagcgc agataccaaa tactgttctt
+     4141 ctagtgtagc cgtagttagg ccaccacttc aagaactctg tagcaccgcc tacatacctc
+     4201 gctctgctaa tcctgttacc agtggctgct gccagtggcg ataagtcgtg tcttaccggg
+     4261 ttggactcaa gacgatagtt accggataag gcgcagcggt cgggctgaac ggggggttcg
+     4321 tgcacacagc ccagcttgga gcgaacgacc tacaccgaac t 
+//
