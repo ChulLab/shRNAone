@@ -6,12 +6,12 @@ Notebooks for the Figure 5 panels and the supplementary figures. They compare sh
 
 | Notebook                                                                                                                   | Purpose                                                             |
 | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [`260728_Figure5_Main_a_dummy.ipynb`](260728_Figure5_Main_a_dummy.ipynb)                                                   | Synthetic dummy panel for Figure 5a.                                |
-| [`260724_Figure5_Main_b_supa_shRNA_Psp_CasRx_GLine_Dot.ipynb`](260724_Figure5_Main_b_supa_shRNA_Psp_CasRx_GLine_Dot.ipynb) | Gaussian-smoothed shRNA, PspCas13b, and CasRx day 1/day 5 profiles. |
-| [`260724_Figure5_Main_c_d_Offset_shRNA_CasRx.ipynb`](260724_Figure5_Main_c_d_Offset_shRNA_CasRx.ipynb)                     | Offset analysis of shRNA versus CasRx.                              |
-| [`260805_Figure5_Main_c_shRNA_Psp_Offset.ipynb`](260805_Figure5_Main_c_shRNA_Psp_Offset.ipynb)                             | Offset analysis of shRNA versus PspCas13b.                          |
-| [`260805_Figure5_Main_e.ipynb`](260805_Figure5_Main_e.ipynb)                                                               | shRNA versus PspCas13b profile panels at two offsets.               |
-| [`260807_VERSUS_SumL_supplementary_figure.ipynb`](260807_VERSUS_SumL_supplementary_figure.ipynb)                           | VERSUS/SumL supplementary figure panels.                            |
+| [`260728_Figure5_Main_a_dummy.ipynb`](./scripts/260728_Figure5_Main_a_dummy.ipynb)                                                   | Synthetic dummy panel for Figure 5a.                                |
+| [`260724_Figure5_Main_b_supa_shRNA_Psp_CasRx_GLine_Dot.ipynb`](./scripts/260724_Figure5_Main_b_supa_shRNA_Psp_CasRx_GLine_Dot.ipynb) | Gaussian-smoothed shRNA, PspCas13b, and CasRx day 1/day 5 profiles. |
+| [`260724_Figure5_Main_c_d_Offset_shRNA_CasRx.ipynb`](./scripts/260724_Figure5_Main_c_d_Offset_shRNA_CasRx.ipynb)                     | Offset analysis of shRNA versus CasRx.                              |
+| [`260805_Figure5_Main_c_shRNA_Psp_Offset.ipynb`](./scripts/260805_Figure5_Main_c_shRNA_Psp_Offset.ipynb)                             | Offset analysis of shRNA versus PspCas13b.                          |
+| [`260805_Figure5_Main_e.ipynb`](./scripts/260805_Figure5_Main_e.ipynb)                                                               | shRNA versus PspCas13b profile panels at two offsets.               |
+| [`260807_VERSUS_SumL_supplementary_figure.ipynb`](./scripts/260807_VERSUS_SumL_supplementary_figure.ipynb)                           | VERSUS/SumL supplementary figure panels.                            |
 
 The two `Main_c` notebooks are separate analyses: `260724_..._c_d...` compares shRNA with CasRx, whereas `260805_..._c...` compares shRNA with PspCas13b.
 
