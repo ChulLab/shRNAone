@@ -1,0 +1,104 @@
+import scipy.stats as stats
+import os
+import glob
+import numpy as np
+import pandas as pd
+from Bio import SeqIO
+from Bio.Seq import Seq
+
+CasRxU1Dir = '/home/wkkongaa/data/notebooks/260608_tiling_screen_reanalysis/TTR_RfxCas13d_U1-crRNA_1nt'
+Libdirectory = '/home/wkkongaa/data/notebooks/260608_tiling_screen_reanalysis/_analysis/reference/hkuoligopool9.fa'
+
+Dfiles = [f for f in os.listdir(CasRxU1Dir) if f.endswith('sorted.txt')]
+Dfiles.sort()
+
+
+for file in Dfiles:
+    file_path = os.path.join(CasRxU1Dir, file)
+    data = pd.read_csv(file_path, delimiter='\t', names=['Count', 'target_seq'])
+    index = file.find("U1Rx-R")
+    index_end = file.find("_L")
+    length = len("U1Rx-R")
+    variable_name = ('U1Rx_rep' + file[index + length:index_end]).replace("-", "_")
+    globals()[variable_name] = data
+    print(file, variable_name)
+
+
+sequence_name = []
+sequence = []
+
+for record in SeqIO.parse(Libdirectory, "fasta"):
+    if "U1_Rfx" not in record.id:
+        continue
+    else:
+        if "rc_" in record.id:
+            sequence_name.append(record.id[-9:])
+        else:
+            sequence_name.append(record.id)
+        sequence.append(str(Seq(str(record.seq).upper()[38:-38]).reverse_complement()))
+print(sequence_name)
+
+df_ref = pd.DataFrame({"name": sequence_name, "target_seq": sequence})
+
+df_ref["start_nt_NM_000371.3"] = [int(x.split("|")[1].split("-")[0]) if "U1_Rfx-crRNA" in x else "NTC" for x in df_ref["name"]]
+df_ref["end_nt_NM_000371.3"] = [int(x.split("|")[1].split("-")[1]) if "U1_Rfx-crRNA" in x else "NTC" for x in df_ref["name"]]
+df_ref["start_nt_NM_000371.4"] = [int(x.split("|")[1].split("-")[0]) - 110 if "U1_Rfx-crRNA" in x else "NTC" for x in df_ref["name"]]
+df_ref["end_nt_NM_000371.4"] = [int(x.split("|")[1].split("-")[1]) - 110 if "U1_Rfx-crRNA" in x else "NTC" for x in df_ref["name"]]
+df_ref["region"] = ["NTC" if x == "NTC" else "5'UTR" if (x >= 23) & (x <= 26) else "CDS" if (x >= 27) & (x <= 470) else "3'UTR" if (x >= 471) & (x <= 616) else "Misannotated" for x in df_ref["end_nt_NM_000371.4"]]
+
+df_U1Rx = df_ref.merge(U1Rx_rep1_Bin1, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep1_bin1"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep1_Bin2, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep1_bin2"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep1_Bin3, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep1_bin3"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep1_Bin4, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep1_bin4"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep2_Bin1, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep2_bin1"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep2_Bin4, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep2_bin4"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep3_Bin1_Day1, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep3_Bin1_Day1"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep3_Bin4_Day1, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep3_Bin4_Day1"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep3_Bin1_Day5, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep3_Bin1_Day5"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep3_Bin4_Day5, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep3_Bin4_Day5"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep4_Bin1, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep4_Bin1"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep4_Bin4, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep4_Bin4"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep5_Bin1, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep5_Bin1"})
+
+df_U1Rx = df_U1Rx.merge(U1Rx_rep5_Bin4, how='left')
+df_U1Rx = df_U1Rx.rename(columns={"Count": "rep5_Bin4"})
+
+columns_range = df_U1Rx.columns[7:]
+column_sums = df_U1Rx[columns_range].sum()
+
+for column in range(len(columns_range)):
+    df_U1Rx[columns_range[column] + "_CPM"] = df_U1Rx[columns_range[column]] / column_sums.iloc[column] * 1000000
+
+df_U1Rx ["rep1_Log2FC"] = [np.log2((df_U1Rx["rep1_bin1_CPM"][x]) / (df_U1Rx["rep1_bin4_CPM"][x])) if (df_U1Rx["rep1_bin1_CPM"][x] > 100 and df_U1Rx["rep1_bin4_CPM"][x] > 100) else np.nan for x in range(len(df_U1Rx))]
+df_U1Rx ["rep2_Log2FC"] = [np.log2((df_U1Rx["rep2_bin1_CPM"][x]) / (df_U1Rx["rep2_bin4_CPM"][x])) if (df_U1Rx["rep2_bin1_CPM"][x] > 100 and df_U1Rx["rep2_bin4_CPM"][x] > 100) else np.nan for x in range(len(df_U1Rx))]
+df_U1Rx ["rep3_day1_Log2FC"] = [np.log2((df_U1Rx["rep3_Bin1_Day1_CPM"][x]) / (df_U1Rx["rep3_Bin4_Day1_CPM"][x])) if (df_U1Rx["rep3_Bin1_Day1_CPM"][x] > 100 and df_U1Rx["rep3_Bin4_Day1_CPM"][x] > 100) else np.nan for x in range(len(df_U1Rx))]
+df_U1Rx ["rep3_day5_Log2FC"] = [np.log2((df_U1Rx["rep3_Bin1_Day5_CPM"][x]) / (df_U1Rx["rep3_Bin4_Day5_CPM"][x])) if (df_U1Rx["rep3_Bin1_Day5_CPM"][x] > 100 and df_U1Rx["rep3_Bin4_Day5_CPM"][x] > 100) else np.nan for x in range(len(df_U1Rx))]
+df_U1Rx ["rep4_day5_Log2FC"] = [np.log2((df_U1Rx["rep4_Bin1_CPM"][x]) / (df_U1Rx["rep4_Bin4_CPM"][x])) if (df_U1Rx["rep4_Bin1_CPM"][x] > 100 and df_U1Rx["rep4_Bin4_CPM"][x] > 100) else np.nan for x in range(len(df_U1Rx))]
+df_U1Rx ["rep5_day5_Log2FC"] = [np.log2((df_U1Rx["rep5_Bin1_CPM"][x]) / (df_U1Rx["rep5_Bin4_CPM"][x])) if (df_U1Rx["rep5_Bin1_CPM"][x] > 100 and df_U1Rx["rep5_Bin4_CPM"][x] > 100) else np.nan for x in range(len(df_U1Rx))]
+
+df_U1Rx.to_csv("/home/wkkongaa/data/notebooks/260608_tiling_screen_reanalysis/_analysis/output/Log2FC_TTR_RfxCas13d_U1-crRNA_1nt_261029.csv", index=False)

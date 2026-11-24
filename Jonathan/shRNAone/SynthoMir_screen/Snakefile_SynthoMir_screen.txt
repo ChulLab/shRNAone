@@ -1,0 +1,156 @@
+#!/usr/local/bin/snakemake
+
+import sys
+import time
+
+sys.path.append('/home/wkkongaa/data/notebooks')
+
+# =============================================================================
+# Configuration
+# =============================================================================
+
+# Map each sample to its raw data directory
+RAW_DATA_DIRS = {
+    '/home/wkkongaa/data/NGS-raw-data/240721_novaseq31': [
+        'SF015-D00_L1_2',
+        'SF015-D05_L1_2',
+        'SF015-D12-DMSO_L1_2',
+        'SF015-D12-Sorafenib_L1_2',
+    ],
+    '/home/wkkongaa/data/NGS-raw-data/240829_novaseq34': [
+        'SF017_br2_D00_L1_2',
+        'SF017_br2_D05_L1_2',
+        'SF017_br2_D12_DMSO_L1_2',
+        'SF017_br2_D12_Sorafenib_L1_2',
+    ],
+    '/home/wkkongaa/data/NGS-raw-data/240825_novaseq35': [
+        'SF017_br3_D00_L1_2',
+        'SF017_br3_D05_L1_2',
+        'SF017_br3_D12_DMSO_L1_2',
+        'SF017_br3_D12_Sorafenib_L1_2',
+    ],
+}
+
+# Build a lookup: sample -> directory
+SAMPLE_TO_DIR = {}
+for directory, samples in RAW_DATA_DIRS.items():
+    for sample in samples:
+        SAMPLE_TO_DIR[sample] = directory
+
+# All sample names
+SAMPLES = list(SAMPLE_TO_DIR.keys())
+
+
+def get_raw_fastq(wildcards):
+    """Return the full path to the raw FASTQ for a given sample."""
+    return f'{SAMPLE_TO_DIR[wildcards.sample]}/{wildcards.sample}.fq.gz'
+
+
+# Flanking sequences for cutadapt trimming
+FLANKING_5 = 'TCCAGCCACAGCCACTATG'
+LOOP = 'CCACTGAAGCTTAAACAGG'
+
+# Quality filter parameters
+MIN_QUAL = 20
+MIN_QUALIFIED = 90
+
+# Insert length filter
+EXACT_INSERT_LENGTH = 19
+
+# Output directory
+OUT_DIR = 'miR_shRNAone/'
+
+# =============================================================================
+# Logging
+# =============================================================================
+
+DATE = time.strftime('%y%m%d')
+LOG = f'logs/{DATE}.log'
+STAMP = f'========== NEW RUN at {time.time()} =========='
+
+with open(LOG, 'a') as logf:
+    logf.write(STAMP + '\n')
+
+# =============================================================================
+# Rules
+# =============================================================================
+
+rule all:
+    input:
+        LOG,
+        expand(f'{OUT_DIR}/{{sample}}.filtered_and_sorted.txt', sample=SAMPLES),
+
+
+rule make_log:
+    output: LOG
+    shell:
+        'echo "{STAMP}" > {output}'
+
+
+rule quality_filter:
+    input:
+        get_raw_fastq
+    output:
+        f'{OUT_DIR}/{{sample}}.qc.fastq.gz'
+    shell:
+        """
+        zcat {input} \
+        | fastq_quality_filter -v -Q33 -q {MIN_QUAL} -p {MIN_QUALIFIED} 2>> {LOG} \
+        | gzip -c > {output}
+        """
+
+
+rule trim_adapter:
+    input:
+        f'{OUT_DIR}/{{sample}}.qc.fastq.gz'
+    output:
+        f'{OUT_DIR}/{{sample}}.trima.fastq.gz'
+    shell:
+        """
+        zcat {input} \
+        | cutadapt - -g {LOOP}...{FLANKING_5} \
+            --discard-untrimmed \
+            -m {EXACT_INSERT_LENGTH} \
+            -M {EXACT_INSERT_LENGTH} 2>> {LOG} \
+        | gzip -c > {output}
+        """
+
+
+rule insert_count:
+    input:
+        f'{OUT_DIR}/{{sample}}.trima.fastq.gz'
+    output:
+        f'{OUT_DIR}/{{sample}}.count.txt'
+    shell:
+        """
+        zcat {input} \
+        | grep -A1 "^@" --no-group-separator \
+        | grep -v "^@" \
+        | sort \
+        | uniq -c > {output}
+        """
+
+
+rule format_counts:
+    """Remove leading whitespace and convert space delimiter to tab."""
+    input:
+        f'{OUT_DIR}/{{sample}}.count.txt'
+    output:
+        f'{OUT_DIR}/{{sample}}.count_tab.txt'
+    shell:
+        """
+        sed 's/^[[:space:]]*//g' {input} \
+        | sed 's/ /\\t/g' > {output}
+        """
+
+
+rule sort_by_count:
+    """Keep only inserts of exact expected length, then sort by count descending."""
+    input:
+        f'{OUT_DIR}/{{sample}}.count_tab.txt'
+    output:
+        f'{OUT_DIR}/{{sample}}.filtered_and_sorted.txt'
+    shell:
+        """
+        sort -rn -k1,1 {input} > {output}
+        """

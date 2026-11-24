@@ -1,0 +1,88 @@
+#!/usr/local/bin/snakemake
+
+import sys; sys.path.append('/home/wkkongaa/data/notebooks')
+import time
+
+# 
+# IMPORTANT: consider direction when analyzing shRNAmir
+#
+
+RAW_DATA_DIR = '/home/wkkongaa/data/NGS-raw-data/260416_novaseq99'
+
+
+SAMPLES = ['01-WT-day0-R1_L0_2', '02-WT-day0-R2_L0_2', '03-WT-day0-R3_L0_2', '04-599-day0-R1_L0_2', '05-599-day0-R2_L0_2',\
+            '06-599-day0-R3_L0_2', '07-600-day0-R1_L0_2', '08-600-day0-R2_L0_2', '09-600-day0-R3_L0_2',\
+            '11-WT-day5-R1_L0_2', '12-WT-day5-R2_L0_2', '13-WT-day5-R3_L0_2', '14-599-day5-R1_L0_2', '15-599-day5-R2_L0_2',\
+            '16-599-day5-R3_L0_2', '17-600-day5-R1_L0_2', '18-600-day5-R2_L0_2', '19-600-day5-R3_L0_2',\
+            '21-WT-Veh-R1_L0_2', '22-WT-Veh-R2_L0_2', '23-WT-Veh-R3_L0_2', '24-599-Veh-R1_L0_2', '25-599-Veh-R2_L0_2',\
+            '26-599-Veh-R3_L0_2', '27-600-Veh-R1_L0_2', '28-600-Veh-R2_L0_2', '29-600-Veh-R3_L0_2',\
+            '31-WT-Sora-R1_L0_2', '32-WT-Sora-R2_L0_2', '33-WT-Sora-R3_L0_2', '34-599-Sora-R1_L0_2', '35-599-Sora-R2_L0_2',\
+            '36-599-Sora-R3_L0_2', '37-600-Sora-R1_L0_2', '38-600-Sora-R2_L0_2', '39-600-Sora-R3_L0_2']
+
+
+flanking_5 = 'TCCAGCCACAGCCACTATG'
+LOOP = 'CCACTGAAGCTTAAACAGG'
+MIN_QUAL = 20
+MIN_QUALIFIED = 90
+MIN_INSERT_LEN = 17
+EXACT_INSERT_LENGTH = 19
+
+# write a log for each run
+DATE = time.strftime('%y%m%d')
+LOG = 'logs/%s.log' % DATE
+logf = open(LOG, 'a')
+STAMP = '========== NEW RUN at %s ==========\n' % time.time()
+logf.write(STAMP)
+logf.close()
+
+
+rule all:
+    input: 'logs/%s.log' % DATE,
+           expand('data_read2/{sample}.qc.fastq.gz', sample=SAMPLES),
+           expand('data_read2/{sample}.trima.fastq.gz', sample=SAMPLES),
+           expand('data_read2/{sample}.count.txt', sample=SAMPLES),
+           expand('data_read2/{sample}.count_nospace.txt', sample=SAMPLES),
+           expand('data_read2/{sample}.count_tab.txt', sample=SAMPLES),
+           expand('data_read2/{sample}.filtered_and_sorted.txt', sample=SAMPLES)
+
+
+rule make_log:
+    output: 'logs/%s.log' % DATE
+    shell: 'echo "{STAMP}" > {output}'
+
+rule quality_filter:
+    output: 'data_read2/{sample}.qc.fastq.gz'
+    shell: 'zcat {RAW_DATA_DIR}/{wildcards.sample}.fq.gz | \
+            fastq_quality_filter - -v -Q33 -q {MIN_QUAL} -p {MIN_QUALIFIED} 2>> {LOG} | \
+            gzip -c - > {output}'
+
+rule trim_adapter:
+    input: 'data_read2/{sample}.qc.fastq.gz'
+    output: 'data_read2/{sample}.trima.fastq.gz'
+    shell: 'zcat {input} | \
+            cutadapt - -g {LOOP}...{flanking_5} --discard-untrimmed -m {MIN_INSERT_LEN} 2>> {LOG} | \
+            gzip -c - > {output}'
+
+rule insert_count:
+    input: 'data_read2/{sample}.trima.fastq.gz'
+    output: 'data_read2/{sample}.count.txt'
+    shell: 'zcat {input} | \
+			grep -A1 "^@" --no-group-separator - | grep -v "^@" - | \
+            sort - | \
+			uniq -c > {output}'
+
+rule remove_space:
+    input: 'data_read2/{sample}.count.txt'
+    output: 'data_read2/{sample}.count_nospace.txt'
+    shell: 'sed "s/^[[:space:]]*//g" {input} > {output}'
+
+rule change_space_to_tab:
+    input: 'data_read2/{sample}.count_nospace.txt'
+    output: 'data_read2/{sample}.count_tab.txt'
+    shell: 'sed "s/ /\t/g" {input} > {output}'
+
+rule lib_filter_and_sort:
+    input: 'data_read2/{sample}.count_tab.txt'
+    output: 'data_read2/{sample}.filtered_and_sorted.txt'
+    shell: """awk -F'\t' 'length($2) == {EXACT_INSERT_LENGTH}' {input} | \
+            sort -rn -k1,1 > {output}"""

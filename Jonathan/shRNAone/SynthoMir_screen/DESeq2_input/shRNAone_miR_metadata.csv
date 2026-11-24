@@ -1,0 +1,13 @@
+sample,condition,replicate
+rep1_day00,day0,rep1
+rep1_day05,day5,rep1
+rep1_day12_DMSO,DMSO,rep1
+rep1_day12_Sorafenib,Sorafenib,rep1
+rep2_day00,day0,rep2
+rep2_day05,day5,rep2
+rep2_day12_DMSO,DMSO,rep2
+rep2_day12_Sorafenib,Sorafenib,rep2
+rep3_day00,day0,rep3
+rep3_day05,day5,rep3
+rep3_day12_DMSO,DMSO,rep3
+rep3_day12_Sorafenib,Sorafenib,rep3

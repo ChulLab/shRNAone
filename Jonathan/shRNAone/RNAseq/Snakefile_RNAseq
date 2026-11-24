@@ -1,0 +1,46 @@
+#!/usr/local/bin/snakemake
+
+import sys; sys.path.append('/home/wkkongaa/notebooks')
+import time
+
+# 
+# IMPORTANT: consider direction when analyzing shRNAmir
+#
+
+RAW_DATA_DIR = '/home/wkkongaa/data/NGS-raw-data/250102_novaseq50'
+SALMON_INDEX_DIR = '/home/wkkongaa/data/transcriptome_datasets/salmon_hg38_canonical_250114/Canonical_hg38_mrna_250114'
+
+
+SAMPLES = ['miR494_7merSupp-rep2-LGM16072_L2', 'miR494_7merSupp-rep3-LGM16073_L2', 'miR494_7mer-rep2-LGM16075_L2', 'miR494_7mer-rep3-LGM16076_L2']
+
+MIN_QUAL = 20
+MIN_QUALIFIED = 90
+
+# write a log for each run
+DATE = time.strftime('%y%m%d')
+LOG = 'logs/%s.log' % DATE
+logf = open(LOG, 'a')
+STAMP = '========== NEW RUN at %s ==========\n' % time.time()
+logf.write(STAMP)
+logf.close()
+
+rule all:
+    input: 'logs/%s.log' % DATE,
+            expand('salmon_output_260208/{sample}', sample=SAMPLES)
+
+
+rule make_log:
+    output: 'logs/%s.log' % DATE
+    shell: 'echo "{STAMP}" > {output}'
+
+
+rule salmon:
+    input: 
+            f"{RAW_DATA_DIR}/{{sample}}_1.fq.gz",
+            f"{RAW_DATA_DIR}/{{sample}}_2.fq.gz"
+    output: 
+            directory("salmon_output_260208/{sample}")
+    shell: 
+            """
+            salmon quant -i {SALMON_INDEX_DIR} -l IU -1 {input[0]} -2 {input[1]} --validateMappings -o {output}
+            """
