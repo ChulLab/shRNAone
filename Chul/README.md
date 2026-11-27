@@ -177,7 +177,7 @@ For each sample (miseq1/miseq2) or shRNA variant (novaseq49), reads starting at 
 
 ### 2.2 novaseq49 (miseq4): shRNA backbone panel
 
-[`261123_FIGURE_novaseq49_share_v1.ipynb`](261123_FIGURE_novaseq49_share_v1.ipynb) analyses the miseq4 panel: the same 144 guide sequences expressed from seven shRNA backbones (1mir33, 2mirGE, 3pGIPZ, 4J3, 6mir26, 8mir16, 9mir16ghg; 7mir26ghg is not included).
+[`261123_FIGURE_novaseq49_share_v1.ipynb`](261123_FIGURE_novaseq49_share_v1.ipynb) analyses the miseq4 panel: the same 144 guide sequences expressed from seven shRNA backbones (1mir33, 2mirGE, 3pGIPZ, 4J3, 6mir26, 8mir16, 9mir16ghg).
 
 - **Input:** `papername2.txt` and the per-sample `{sample}.shrna.position.txt` tables from section 1.
 - **Heatmaps:** one per backbone, with the 144 variants as rows (serial numbers 001–144, every 20th labelled) and 5′ end positions as columns; colour is the percentage of a variant's reads at that position (log scale 1–100%; 0% and values below 1% in grey). Dashed red and dotted blue lines mark the intended guide and passenger 5′ ends. Heatmaps are displayed inline only (`SAVE_FIGURES = False`).
