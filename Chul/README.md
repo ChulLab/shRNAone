@@ -323,6 +323,6 @@ The current code searches the full-length mRNA sequence (`mrna` column). To rest
 - **Wrong adapter:** `ADAPTER_3P` is set for TruSeq small RNA libraries; change it for other kits.
 - **Snakemake indentation error:** the `remove_multiple_mapped_reads` rule contains a tab before `shell:`. If your Python/Snakemake version reports inconsistent indentation, replace that tab with four spaces.
 
-## Citation
+## Documentation and verification
 
-If you use this code, please cite the associated manuscript.
+This README was written by DeepSeek and checked by S. Chul Kwon.
